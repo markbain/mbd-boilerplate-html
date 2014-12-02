@@ -13,5 +13,5 @@ Setup
 Usage
 ---
 * Run `grunt` to execute default tasks
-* Run `grunt imagemin`to minify images
-* Run `grunt build` to output build files
+* Run `grunt rc` to create build files
+* Run `grunt dist` to output an archive for upload
