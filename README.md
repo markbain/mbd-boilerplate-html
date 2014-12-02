@@ -1,4 +1,4 @@
-The Bain Family Xmas Videos
+Mark Bain Design Boilerplate for HTML Projects 2015
 ===
 
 By Mark Bain Design
