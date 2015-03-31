@@ -17,12 +17,4 @@
 		<h3>Just as a matter of deductive logic.</h3>
 	</div>
 </div>
-
-<!-- please do not remove this line -->
-
-<div style="display:none;">
-<a href="http://slipsum.com">lorem ipsum</a></div>
-
-<!-- end slipsum code -->
-
 <?php include_once('./includes/footer.php'); ?>
