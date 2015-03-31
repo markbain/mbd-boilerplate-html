@@ -5,40 +5,29 @@
 	$keywords = 'Boilerplate, Cool, Great';
 	include_once('./includes/header.php');
 ?>
-
-
-<!-- start slipsum code -->
-<div class="section">
+<div class="section alt">
 	<div class="container">
-				<!-- Sample Content to Plugin to Template -->
-<h1>CSS Basic Elements</h1>
- 
-<p>The purpose of this HTML is to help determine what default settings are with CSS and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
- 
-<hr />
- 
-<h1 id="headings">Headings</h1>
- 
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
- 
-<small><a href="#wrapper">[top]</a></small>
-<hr />
- 
- 
-<h1 id="paragraph">Paragraph</h1>
- 
-<img style="width:250px;height:125px;float:right" src="assets/images/og-image.png" alt="CSS | God's Language" />
-<p>Lorem ipsum dolor sit amet, <a href="#" title="test link">test link</a> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
- 
-<p>Lorem ipsum dolor sit amet, <em>emphasis</em> consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
- 
-<small><a href="#wrapper">[top]</a></small>
-<hr />
+		<h1>CSS Basic Elements</h1> 
+		<p>The purpose of this HTML is to help determine what default settings are with CSS and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
+		<hr /> 
+		<h1>Heading 1</h1>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
+		<h5>Heading 5</h5>
+		<h6>Heading 6</h6> 
+		<small><a href="#wrapper">[top]</a></small>
+	</div><!-- .container -->
+</div><!-- .section -->
+<div class="section">
+	<div class="container">	
+		<h1 id="paragraph">Paragraph</h1>
+		<img src="assets/images/og-image.png" alt="CSS | God's Language" />
+		<p>Lorem ipsum dolor sit amet, <a href="#" title="test link">test link</a> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+		<p>Lorem ipsum dolor sit amet, <em>emphasis</em> consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+		<small><a href="#wrapper">[top]</a></small>
+	</div><!-- .container -->
+</div><!-- .section -->
  
 <h1 id="list_types">List Types</h1>
  
@@ -162,7 +151,6 @@
 </blockquote>
  
 <small><a href="#wrapper">[top]</a></small>
-<!-- End of Sample Content -->
-	</div>
-</div>
+
+
 <?php include_once('./includes/footer.php'); ?>
