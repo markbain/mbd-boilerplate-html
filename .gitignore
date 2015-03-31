@@ -13,3 +13,4 @@ rc
 dist
 .tmp
 *.css
+*.sublime-workspace
