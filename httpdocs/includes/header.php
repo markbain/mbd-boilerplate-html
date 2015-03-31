@@ -12,7 +12,7 @@
 	<!-- Metas -->
 		<meta name="description" content="<?php echo $description; ?>" />
 		<meta name="keywords" content="<?php echo $keywords; ?>" />
-		<meta name="author" content="ELT Jam" />
+		<meta name="author" content="Mark Bain" />
 
 	<!-- Mobile Specific Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
