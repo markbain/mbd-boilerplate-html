@@ -1,0 +1,59 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "httpdocs",
+			"name": "HTML",
+			"folder_exclude_patterns": [
+				"assets",
+			],
+			"file_exclude_patterns":
+			[
+				"*.png",
+				"*.ico",
+				"*.xml",
+			]
+		},
+		{
+			"follow_symlinks": true,
+			"path": "sass",
+			"name": "Sass"
+		},
+		{
+			"follow_symlinks": true,
+			"path": ".",
+			"name": "Root",
+			"folder_exclude_patterns": [
+				".sass-cache",
+				".tmp",
+				"bower_components",
+				"dist",
+				"httpdocs",
+				"node_modules",
+				"rc",
+				"sass",
+			],
+			"file_exclude_patterns":
+			[
+				"*.css",
+				"*.css.map",
+			]
+		},
+		{
+			"follow_symlinks": true,
+			"path": "httpdocs/assets/js/custom",
+			"name": "Scripts",
+			"folder_exclude_patterns": [
+				".sass-cache",
+				".tmp",
+				"bower_components",
+				"dist",
+				"httpdocs",
+				"node_modules",
+				"rc",
+				"sass",
+			]
+		}
+	]
+}
