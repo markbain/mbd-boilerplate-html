@@ -7,18 +7,18 @@
 
 	<!-- Basic Page Needs -->
 		<meta charset="utf-8" />
-		<title>MBD Boilerplate HTML</title>
+		<title><?php echo $title; ?></title>
 
 	<!-- Metas -->
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<meta name="author" content="" />
+		<meta name="description" content="<?php echo $description; ?>" />
+		<meta name="keywords" content="<?php echo $keywords; ?>" />
+		<meta name="author" content="ELT Jam" />
 
 	<!-- Mobile Specific Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<!-- Open Graph protocol -->
-		<meta property="og:image" content="">
+		<meta property="og:image" content="./assets/images/og-image.png">
 		<meta property="og:image:width" content="1200">
 		<meta property="og:image:height" content="630">
 		<meta property="og:image:type" content="image/png">
@@ -60,37 +60,3 @@
 <body>
 <header></header>
 <main>
-<!-- start slipsum code -->
-<div class="section">
-	<div class="container">
-		<h1>You see?</h1>
-		<h2>It's curious.</h2>
-		<h3>Ted did figure it out - time travel.</h3>
-		<p>And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here.</p>
-		<h3>Just as a matter of deductive logic.</h3>
-	</div>
-</div>
-
-<!-- please do not remove this line -->
-
-<div style="display:none;">
-<a href="http://slipsum.com">lorem ipsum</a></div>
-
-<!-- end slipsum code -->
-</main>
-<footer></footer>
-
-<!-- javascripts --> 
-
-<!-- build:js assets/js/plugins.min.js -->
-	<script type="text/javascript" src="assets/js/vendor/jquery.ui.map.min.js"></script> 
-	<script type="text/javascript" src="assets/js/vendor/jquery.validationengine.min.js"></script>
-<!-- endbuild -->
-
-<!-- build:js assets/js/main.min.js -->
-	<script type="text/javascript" src="assets/js/custom/custom.js"></script> 
-	<script type="text/javascript" src="assets/js/custom/custom-navicons.js"></script>
-<!-- endbuild -->
-
-</body>
-</html>
