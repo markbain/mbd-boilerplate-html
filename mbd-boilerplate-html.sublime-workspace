@@ -1,0 +1,505 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bp",
+				"bpmh	Add $mobile-horizontal breakpoint-sass media query"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"po",
+				"porcelain"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"br",
+				"bright-white"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"whit",
+				"white_bright"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"sea",
+				"seagull_dark"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"se",
+				"seagull_dark"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"que",
+				"query-monitor"
+			],
+			[
+				"background--",
+				"background--light"
+			],
+			[
+				"is_ar",
+				"is_archive"
+			],
+			[
+				"is_a",
+				"is_archive"
+			],
+			[
+				"ech",
+				"echo"
+			],
+			[
+				"pr",
+				"project_name"
+			],
+			[
+				"is_si",
+				"is_singular"
+			],
+			[
+				"ima",
+				"image_url"
+			],
+			[
+				"mobile",
+				"mobile_image_url"
+			],
+			[
+				"p",
+				"php	<?php … ?>"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"ta",
+				"tablet"
+			],
+			[
+				"get_sty",
+				"get_stylesheet_directory"
+			],
+			[
+				"get_tem",
+				"get_template_part"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <?php echo … ?>"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 713.0
+	},
+	"console":
+	{
+		"height": 194.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/mbd-boilerplate-html/mbd-boilerplate-html",
+		"/C/xampp/htdocs/mbd-boilerplate-html/Gruntfile.js",
+		"/C/xampp/htdocs/ieltsjam/package.json",
+		"/C/xampp/htdocs/ieltsjam/httpdocs/index.html",
+		"/C/xampp/htdocs/mbd-boilerplate-html/README.md",
+		"/C/xampp/htdocs/ieltsjam/bower.json",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/htdocs/oxfordtefl/.gitignore",
+		"/C/xampp/htdocs/oxfordtefl/httpdocs/wp-config.php",
+		"/C/Users/Mark & Aida/AppData/Local/Temp/scp08537/home/new_tesol_site/oxfordtefl.com/wp-config.php",
+		"/C/xampp/htdocs/oxfordtefl/httpdocs/.htaccess",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/safer/locations.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/mu-plugins/dev/hide-my-site/templates/hmsclassic.php",
+		"/C/xampp/htdocs/dn-digital/Gruntfile.js",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/safer/functions.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/safer/single-locations.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/safer/single-locations-x.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/Avada/header.php",
+		"/C/xampp/htdocs/atama-ii.com/httpdocs/wp-content/plugins/atamaiibooks.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/safer/portfolio.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/mu-plugins/load.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-config.php",
+		"/C/xampp/htdocs/saferstdtesting/sass/partials/_mixins.scss",
+		"/C/xampp/htdocs/saferstdtesting/package.json",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/mu-plugins/all-locations-shortcode.php",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/style.css",
+		"/C/xampp/htdocs/isolarworkx/Gruntfile.js",
+		"/C/xampp/htdocs/dn-digital/package.json",
+		"/C/xampp/htdocs/dn-digital/sass/styles.scss",
+		"/C/xampp/htdocs/isolarworkx/httpdocs/wp-content/themes/isolarworkx/style.css",
+		"/C/xampp/htdocs/saferstdtesting/Gruntfile.js",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/safer/style.css",
+		"/C/xampp/htdocs/saferstdtesting/sass/styles.scss",
+		"/C/xampp/htdocs/saferstdtesting/release/safer.0.0.20/safer/style.css",
+		"/C/xampp/htdocs/saferstdtesting/release/safer.0.0.17/safer/style.css",
+		"/C/Users/Mark & Aida/Downloads/Balsamiq Mockups v2.2.3 with Key [TorDigger]/ReadMe!.txt",
+		"/C/Users/Mark & Aida/Downloads/Balsamiq Mockups v2.2.3 with Key [TorDigger]/Key.txt",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/safer/100-width.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/Avada/100-width.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/Avada/page.php",
+		"/C/Users/Mark & Aida/Downloads/export_gcb_24_03_15_15_03.gcb",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/plugins/child-pages-shortcode/child-pages-shortcode.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/safer/page.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/plugins/advanced-page-manager/advanced_page_manager.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/mu-plugins/dev/hide-my-site/index.php",
+		"/C/xampp/htdocs/saferstdtesting/sass/colors/_safer_1.scss",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/mu-plugins/location-shortcode.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/safer/content-shortcode-location-listing.php",
+		"/C/xampp/htdocs/jamiekeddie.com/wp-content/themes/jamie-keddie-portfolio-theme/style.css",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/mu-plugins/testimonials-shortcode.php",
+		"/C/Users/Mark & Aida/Desktop/dfdsff/package.json",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/safer/listings_block.tpl.php",
+		"/C/Users/Mark & Aida/Dropbox/Projects - Clients/iSolarWorkx/isolarworkx.sublime-project",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/plugins/directory/templates/frontend/listings_block.tpl.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/plugins/directory/classes/shortcodes/listings_controller.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/plugins/directory/templates/frontend/listing.tpl.php",
+		"/C/xampp/htdocs/saferstdtesting/original-site/wp-config.php",
+		"/C/Users/Mark & Aida/Dropbox/Projects - Clients/Creative Innovations/directory/plugin/codecanyon-6463373-web-20-directory-plugin-for-wordpress/readme.txt",
+		"/C/xampp/htdocs/saferstdtesting/.gitignore",
+		"/C/xampp/php/php.ini",
+		"/C/Users/Mark & Aida/Desktop/safer_db_03032015.sql",
+		"/C/xampp/htdocs/saferstdtesting/.bowerrc",
+		"/C/xampp/htdocs/saferstdtesting/bower.json",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-config.php",
+		"/C/Users/Mark & Aida/Dropbox/Projects - Clients/Creative Innovations/backups/home.txt",
+		"/C/Users/Mark & Aida/Desktop/widgets.txt",
+		"/C/Users/Mark & Aida/Desktop/hu.txt",
+		"/C/Users/Mark & Aida/Desktop/faqs.txt",
+		"/C/Users/Mark & Aida/Desktop/gonorrhea.txt",
+		"/C/xampp/htdocs/saferstdtesting/backup.sh",
+		"/C/xampp/htdocs/saferstdtesting/saferstdtesting.20150227.sql",
+		"/F/backups [clients]/the-round.com/script/backup.sh",
+		"/F/backups [clients]/atama-ii.com/script/atama-ii-backup.sh",
+		"/F/sysops/scripts/backup (2).sh",
+		"/C/Users/Mark & Aida/Desktop/home.txt",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/lib/theme-functions.php",
+		"/C/xampp/htdocs/saferstdtesting/.gitattributes",
+		"/C/xampp/htdocs/dn-digital/.bowerrc",
+		"/C/xampp/htdocs/saferstdtesting/.jshintrc",
+		"/F/dev/wp/plugins/for dev/hide-my-site/templates/hmsclassic.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/Avada/footer.php",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/lookforbadguys.php",
+		"/C/Users/Mark & Aida/Desktop/Avada/header.php",
+		"/F/dev/.htpasswd",
+		"/C/xampp/htdocs/saferstdtesting/sass/colors/_colors.scss",
+		"/C/xampp/htdocs/saferstdtesting/sass/colors/safer_1/safer_1.scss",
+		"/C/xampp/htdocs/saferstdtesting/README.md",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/Avada/functions.php",
+		"/C/Users/Mark & Aida/Dropbox/Projects - Clients/Creative Innovations/saferSTDtesting/Avada-Child-Theme/Avada-Child-Theme/functions.php",
+		"/C/Users/Mark & Aida/Dropbox/Projects - Clients/Creative Innovations/saferSTDtesting/Avada-Child-Theme/Avada-Child-Theme/style.css",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/care/style.css",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/Avada/style.css",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/mbd-simple-vote/ludou_simplevote.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/ludou-simple-vote/readme.txt",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/mbd-linkwithin/mbd-linkwithin.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/linkwithin/linkwithin.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/footer.php",
+		"/C/Users/Mark & Aida/Dropbox/Projects - Clients/Breakfast with Audrey/myuploads-failedunzip",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/content-loop.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/fashion.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/category-fashion.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/category-beauty.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/category.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/marketpress/marketpress-includes/marketpress-data.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/marketpress/marketpress.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/marketpress/marketpress-includes/constants.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/marketpress/marketpress-includes/marketpress-shortcodes.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/fashiongallery.php",
+		"/C/xampp/htdocs/mhairi-mcfarlane/httpdocs/wp-content/themes/varee/content-archive.php",
+		"/C/xampp/htdocs/mhairi-mcfarlane/httpdocs/wp-content/themes/varee/archive.php",
+		"/C/Users/Mark & Aida/Dropbox/Projects - Clients/DN Digital/DN Digital (Shared)/images/dndigital-logo-black.svg",
+		"/C/Users/Mark & Aida/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Mark & Aida/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/dn-digital/sass/partials/_post-list.scss",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/front-page.php",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/index.php",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/content-portfolio-excerpt.php",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/mu-plugins/load.php",
+		"/C/xampp/htdocs/dn-digital/sass/partials/_variables.scss",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/search.php",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/404.php",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/content-banner.php",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/single.php",
+		"/C/xampp/htdocs/flowvo/index.html",
+		"/C/xampp/htdocs/lfnews/wp-content/themes/lfnews/single.php",
+		"/C/xampp/htdocs/lfnews/wp-content/themes/lfnews/lib/inc/template-tags.php",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/header-page.php",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/sidebar.php"
+	],
+	"find":
+	{
+		"height": 47.0
+	},
+	"find_in_files":
+	{
+		"height": 136.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\oxfordtefl\\httpdocs\\wp-content\\themes\\oxfordtefl",
+			"C:\\xampp\\htdocs\\saferstdtesting\\httpdocs\\wp-content\\plugins\\directory",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bcn_display();",
+			"hooks",
+			"home",
+			"1em",
+			"oxfordtefl_custom_hooks",
+			"home",
+			"DIR",
+			"[contentblock id=",
+			"[contentblock",
+			"[content",
+			"]",
+			"[fusion_text][separator top=\"-20\" bottom=\"0\" style=\"\"][/fusion_text][fullwidth backgroundcolor=\"\" backgroundimage=\"\" backgroundrepeat=\"no-repeat\" backgroundposition=\"left top\" backgroundattachment=\"scroll\" video_webm=\"\" video_mp4=\"\" video_ogv=\"\" video_preview_image=\"\" overlay_color=\"\" overlay_opacity=\"0.5\" video_mute=\"yes\" video_loop=\"yes\" fade=\"no\" bordersize=\"0px\" bordercolor=\"\" borderstyle=\"solid\" paddingtop=\"20px\" paddingbottom=\"20px\" paddingleft=\"0px\" paddingright=\"0px\" menu_anchor=\"\" equal_height_columns=\"no\" hundred_percent=\"no\" class=\"\" id=\"\"][fusion_text][contentblock id=mbd-free-std-testing-cta-top city=\"Albuquerque\"][/fusion_text][two_third last=\"no\" spacing=\"yes\" background_color=\"\" background_image=\"\" background_repeat=\"no-repeat\" background_position=\"left top\" border_size=\"0px\" border_color=\"\" border_style=\"\" padding=\"\" class=\"\" id=\"\"][fusion_text][acf field=\"intro_content\"][contentblock id=city-page-info-end-of-text][/fusion_text][fusion_text][separator top=\"10\" bottom=\"0\" style=\"\"][/fusion_text][fusion_text][contentblock id=city-page-free-std-testing-h2-title city=\"Albuquerque\" state=\"NM\"][/fusion_text][fusion_text][contentblock id=city-page-before-listings city=\"Albuquerque\" state=\"NM\"]\n[/fusion_text][fusion_text]\n\n[custom-directory-listing]\n\n[/fusion_text][/two_third][one_third last=\"yes\" spacing=\"yes\" background_color=\"\" background_image=\"\" background_repeat=\"no-repeat\" background_position=\"left top\" border_size=\"0px\" border_color=\"\" border_style=\"\" padding=\"\" class=\"\" id=\"\"][fusion_text][contentblock id=city-page-top-right-1][/fusion_text][fusion_text][contentblock id=city-page-top-right-2 city=\"Albuquerque\" state=\"NM\"][/fusion_text][/one_third][/fullwidth][fullwidth backgroundcolor=\"#72b7eb\" backgroundimage=\"\" backgroundrepeat=\"no-repeat\" backgroundposition=\"left top\" backgroundattachment=\"scroll\" video_webm=\"\" video_mp4=\"\" video_ogv=\"\" video_preview_image=\"\" overlay_color=\"\" overlay_opacity=\"0.5\" video_mute=\"yes\" video_loop=\"yes\" fade=\"no\" bordersize=\"0px\" bordercolor=\"\" borderstyle=\"solid\" paddingtop=\"20px\" paddingbottom=\"20px\" paddingleft=\"0px\" paddingright=\"0px\" menu_anchor=\"\" equal_height_columns=\"no\" hundred_percent=\"no\" class=\"accent\" id=\"process\"][title size=\"1\" content_align=\"left\" style_type=\"single\" sep_color=\"\" class=\"\" id=\"\"]<strong>Safer STD Testing</strong> in 3 easy steps[/title][content_boxes layout=\"icon-on-top\" icon_circle_size=\"large\" icon_align=\"left\" columns=\"3\" class=\"\" id=\"\"][content_box title=\"PICK YOUR TESTS\" icon=\"fa-list-alt\" backgroundcolor=\"\" iconcolor=\"\" circlecolor=\"\" circlebordercolor=\"\" iconflip=\"\" iconrotate=\"\" iconspin=\"no\" image=\"\" image_width=\"35\" image_height=\"35\" link=\"http://www.saferstdtesting.com/std-test-express/25-off-any-std-test.php\" linktext=\"See tests & pricing\" linktarget=\"_self\" animation_type=\"0\" animation_direction=\"down\" animation_speed=\"0.1\"]      Select and order your STD tests using our secure, online checkout, or by phone. If you're not sure what tests you need, our certified Care Advisors can help. Call <a class=\"contact-number\" href=\"tel:18883805571\">1 (888) 380-5571</a>, 6am-10pm CST, 7 days a week.[/content_box][content_box title=\"VISIT A LAB\" icon=\"fa-flask\" backgroundcolor=\"\" iconcolor=\"\" circlecolor=\"\" circlebordercolor=\"\" iconflip=\"\" iconrotate=\"\" iconspin=\"no\" image=\"\" image_width=\"35\" image_height=\"35\" link=\"http://www.saferstdtesting.com/std-test-express/25-off-any-std-test.php\" linktext=\"Find a lab near you\" linktarget=\"_self\" animation_type=\"0\" animation_direction=\"down\" animation_speed=\"0.1\"]      We'll provide the lab order – you simply visit a participating lab at a time that's best for you. There's no appointment needed. It only takes one blood and/or urine sample and 15–30 minutes of your time.[/content_box][content_box title=\"GET RESULTS\" icon=\"fa-desktop\" backgroundcolor=\"\" iconcolor=\"\" circlecolor=\"\" circlebordercolor=\"\" iconflip=\"\" iconrotate=\"\" iconspin=\"no\" image=\"\" image_width=\"35\" image_height=\"35\" link=\"http://www.saferstdtesting.com/std-test-express/25-off-any-std-test.php\" linktext=\"Learn More\" linktarget=\"_self\" animation_type=\"0\" animation_direction=\"down\" animation_speed=\"0.1\"]      Results are usually available in 3 business days or less †. We will post your test results in your secure, online account.If your results indicate a need for treatment, we can help you. One of our doctors will speak with you over the phone, prescribe medication if medically appropriate.[/content_box][/content_boxes][/fullwidth][fullwidth backgroundcolor=\"\" backgroundimage=\"\" backgroundrepeat=\"no-repeat\" backgroundposition=\"left top\" backgroundattachment=\"scroll\" video_webm=\"\" video_mp4=\"\" video_ogv=\"\" video_preview_image=\"\" overlay_color=\"\" overlay_opacity=\"0.5\" video_mute=\"yes\" video_loop=\"yes\" fade=\"no\" bordersize=\"0px\" bordercolor=\"\" borderstyle=\"\" paddingtop=\"20px\" paddingbottom=\"20px\" paddingleft=\"0px\" paddingright=\"0px\" menu_anchor=\"\" equal_height_columns=\"no\" hundred_percent=\"no\" class=\"\" id=\"\"][fusion_text][contentblock id=city-page-cta-bottom-middle1][/fusion_text][/fullwidth][fullwidth backgroundcolor=\"\" backgroundimage=\"\" backgroundrepeat=\"no-repeat\" backgroundposition=\"left top\" backgroundattachment=\"scroll\" video_webm=\"\" video_mp4=\"\" video_ogv=\"\" video_preview_image=\"\" overlay_color=\"\" overlay_opacity=\"0.5\" video_mute=\"yes\" video_loop=\"yes\" fade=\"no\" bordersize=\"0px\" bordercolor=\"\" borderstyle=\"solid\" paddingtop=\"20px\" paddingbottom=\"20px\" paddingleft=\"0px\" paddingright=\"0px\" menu_anchor=\"\" equal_height_columns=\"no\" hundred_percent=\"no\" class=\"\" id=\"\"][fusion_tabs design=\"classic\" layout=\"horizontal\" justified=\"yes\" backgroundcolor=\"\" inactivecolor=\"\" bordercolor=\"\" class=\"\" id=\"\"][fusion_tab title=\"Statistics\" icon=\"fa-search\"][acf field=\"detailed_info_1\"][/fusion_tab][fusion_tab title=\"Sexual Health Education\" icon=\"fa-umbrella\"][acf field=\"detailed_info_2\"][/fusion_tab][fusion_tab title=\"Demographic Influence\" icon=\"fa-bullhorn\"][acf field=\"detailed_info_3\"][/fusion_tab][fusion_tab title=\"Summary\" icon=\"fa-comment\"][acf field=\"detailed_info_4\"][/fusion_tab][/fusion_tabs][fusion_text]\n<div id=\"disclaimers\">\n<ul>\n	<li>* All patient requests for test orders are subject to review and authorization by our physicians in accordance with state laws.</li>\n	<li><sup>†</sup> Results for the HIV Early Detection test may take up to 5 business days to deliver.</li>\n	<li><sup>1</sup> We do not provide insurance coverage in the following states AR, DE, OK, SC, TX, and VT.</li>\n</ul>\n</div>\n[/fusion_text][/fullwidth]",
+			"]",
+			"twentythirteen",
+			"Movie",
+			"Movies",
+			"nobullets",
+			"W2DC_LOCATIONS_TAX",
+			"w2dc_listing",
+			"		w2dc_listing	\n",
+			"			\n",
+			"href=\"/free-std-testing/",
+			"ArrowList",
+			"&gt;&gt;",
+			"ArrowList",
+			"&gt;&gt;",
+			"border",
+			"\n	",
+			"clicky",
+			"astral",
+			"grey",
+			"seagull",
+			"socialicoregular",
+			"Parent ID",
+			"	if( is_search() ) {\n		$image_url = get_stylesheet_directory_uri() . '/assets/images/404.jpg';\n		$mobile_image_url = get_stylesheet_directory_uri() . \"/assets/images/404-mobile.jpg\";\n		$project_name =  __(\"Search Results for:\", '_mbdmaster');\n		$project_title = get_search_query(); \n	}",
+			"function _mbbasetheme_posted_on() {\n	$time_string = '<time class=\"entry-date published\" datetime=\"%1$s\">%2$s</time>';\n	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {\n		$time_string .= '<time class=\"updated\" datetime=\"%3$s\">%4$s</time>';\n	}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"dir",
+			"[contentblock id=DIR-",
+			"mbdmaster",
+			"Location",
+			"Locations",
+			"href=\"http://dev.markba.in/safer/httpdocs/free-std-testing/",
+			"",
+			"$seagull_mid:				darken($seagull, 15%);	\n	$seagull_dark:				darken($seagull, 40%);",
+			"seagull",
+			"porcelain",
+			"astral",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 152.0
+	},
+	"project": "mbd-boilerplate-html",
+	"replace":
+	{
+		"height": 90.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"side",
+				"sass\\partials\\_sidebar.scss"
+			],
+			[
+				"",
+				"dn-digital\\404.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Mark & Aida\\Dropbox\\Projects - Clients\\iSolarWorkx\\isolarworkx.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 294.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
