@@ -127,6 +127,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "httpdocs/index.php",
+			"settings":
+			{
+				"buffer_size": 7851,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -187,9 +195,18 @@
 	},
 	"expanded_folders":
 	[
+		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs",
+		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes",
+		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/assets/js/custom"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes/header.php",
+		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes/footer.php",
+		"/C/xampp/htdocs/mbd-boilerplate-html/.gitignore",
+		"/C/xampp/htdocs/mbd-boilerplate-html/mbd-boilerplate-html.sublime-project",
+		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/assets/js/custom/custom.js",
+		"/C/xampp/htdocs/mbd-boilerplate-html/sass/styles.scss",
 		"/C/xampp/htdocs/mbd-boilerplate-html/mbd-boilerplate-html",
 		"/C/xampp/htdocs/mbd-boilerplate-html/Gruntfile.js",
 		"/C/xampp/htdocs/ieltsjam/package.json",
@@ -311,13 +328,7 @@
 		"/C/xampp/htdocs/dn-digital/sass/partials/_variables.scss",
 		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/search.php",
 		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/404.php",
-		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/content-banner.php",
-		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/single.php",
-		"/C/xampp/htdocs/flowvo/index.html",
-		"/C/xampp/htdocs/lfnews/wp-content/themes/lfnews/single.php",
-		"/C/xampp/htdocs/lfnews/wp-content/themes/lfnews/lib/inc/template-tags.php",
-		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/header-page.php",
-		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/sidebar.php"
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/content-banner.php"
 	],
 	"find":
 	{
@@ -403,8 +414,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "httpdocs/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5937,
+								5937
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2649.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
