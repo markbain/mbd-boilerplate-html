@@ -1,19 +1,3 @@
-/*!
-Theme Name: MBD Master
-Description: A Mobile-first theme By Mark Bain Design
-Author: Mark Bain
-Author URI: http://markbaindesign.com/
-Version: 0.0
-License: GNU General Public License v2.0
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: _mbbasetheme
-Domain Path: /languages/
-Tags:
-
- _mbbasetheme is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
-
-*/
-
 // Reset, Variables, Mixins, Etc
 // DO NOT EDIT ORDER OF FILE
 
@@ -82,13 +66,6 @@ Tags:
 @import "partials/widgets";
 @import "partials/comments";
 @import "partials/forms";
-
-// WordPress
-@import "wp/wp"; // WP-generated classes
-@import "wp/widgets";
-@import "wp/comments";
-@import "wp/plugins/wp-contact";
-@import "wp/plugins/wp-paginate";
 
 // Helper Classes, Print, Etc
 @import "partials/helpers";
