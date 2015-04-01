@@ -371,3 +371,34 @@
 		}
 	}
 }
+@mixin inline-form( $inputs ){
+	margin: 0 auto;
+	display: table;
+	width: 100%;
+	vertical-align: bottom;
+	p {
+		width: 100%;
+		vertical-align: bottom;
+		&[type="submit"] {
+			width: auto;
+		}
+	}
+  	@if $inputs == 3 {
+		@include breakpoint( $tablet ) {
+			p {
+				width: 33.333%;
+				display: table-cell;
+				padding-right: 10px;
+			}
+		}
+	} 
+	@else if $inputs == 2 {
+		@include breakpoint( $tablet ) {
+			p {
+				width: 50%;
+				display: table-cell;
+				padding-right: 10px;
+			}
+		}
+	}
+}

@@ -72,13 +72,13 @@
 		 
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.</p>
 		 
-				<p><label for="text_field">Text Field:</label><br />
+				<p><label for="text_field">Text Field:</label>
 				<input type="text" id="text_field" /></p>
 		 
-				<p><label for="text_area">Text Area:</label><br />
+				<p><label for="text_area">Text Area:</label>
 				<textarea id="text_area"></textarea></p>
 		 
-				<p><label for="select_element">Select Element:</label><br />
+				<p><label for="select_element">Select Element:</label>
 					<select name="select_element">
 					<optgroup label="Option Group 1">
 						<option value="1">Option 1</option>
@@ -92,23 +92,23 @@
 					</optgroup>
 				</select></p>
 		 
-				<p><label for="radio_buttons">Radio Buttons:</label><br />
+				<p><label for="radio_buttons">Radio Buttons:</label>
 					<input type="radio" class="radio" name="radio_button" value="radio_1" /> Radio 1<br/>
 						<input type="radio" class="radio" name="radio_button" value="radio_2" /> Radio 2<br/>
 						<input type="radio" class="radio" name="radio_button" value="radio_3" /> Radio 3<br/>
 				</p>
 		 
-				<p><label for="checkboxes">Checkboxes:</label><br />
+				<p><label for="checkboxes">Checkboxes:</label>
 					<input type="checkbox" class="checkbox" name="checkboxes" value="check_1" /> Radio 1<br/>
 						<input type="checkbox" class="checkbox" name="checkboxes" value="check_2" /> Radio 2<br/>
 						<input type="checkbox" class="checkbox" name="checkboxes" value="check_3" /> Radio 3<br/>
 				</p>
 		 
-				<p><label for="password">Password:</label><br />
+				<p><label for="password">Password:</label>
 					<input type="password" class="password" name="password" />
 				</p>
 		 
-				<p><label for="file">File Input:</label><br />
+				<p><label for="file">File Input:</label>
 					<input type="file" class="file" name="file" />
 				</p>
 		 
@@ -118,6 +118,25 @@
 		 
 		 
 		 
+			</form>
+			<h2>Inline Forms</h2>
+			<form class="inline-a"> 
+				<p><label for="text_field">Text Field:</label>
+				<input type="text" id="text_field" /></p>		 
+				<p><label for="text_field">Text Field:</label>
+				<input type="text" id="text_field" /></p>						
+				<p><label for="text_field">Text Field:</label>
+				<input type="text" id="text_field" /></p>	 
+				<p><input class="button" type="submit" value="Submit" />
+				</p>
+			</form>
+			<form class="inline-b"> 	 
+				<p><label for="text_field">Text Field:</label>
+				<input type="text" id="text_field" /></p>						
+				<p><label for="text_field">Text Field:</label>
+				<input type="text" id="text_field" /></p>	 
+				<p><input class="button" type="submit" value="Submit" />
+				</p>
 			</form>
 		 
 		</fieldset>
@@ -173,7 +192,7 @@
     
 
 						 <p class="signin"> 
-						 <input type="submit" class="cta button cta-primary" value="Sign Up!"/><span> or find out more &rarr;</span>						
+						 <input type="submit" class="cta button cta-primary" value="Sign Up!"/>						
 						 </p>
 
 					</form> 

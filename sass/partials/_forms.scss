@@ -43,15 +43,21 @@ form {
 		}
 	}
 	&#mc-embedded-subscribe-form {
+		display: table;
 		p {
 			@include breakpoint( $mobile-horizontal ){
 				&.username {
-					width: 50%;
+					width: 33.333%;
+					display: table-cell;
+					padding-right: 10px;
+				}
+				&.username-last {
+					width: 33.333%;
 					display: table-cell;
 					padding-right: 10px;
 				}
 				&.emailaddress {
-					width: 50%;
+					width: 33.333%;
 					display: table-cell;
 					padding-right: 10px;
 				}
@@ -156,8 +162,52 @@ div.wpcf7 .placeheld {
 	color: #888;
 }
 
+
+
+.inline-a {
+	@include inline-form(3);
+}
+.inline-b {
+	@include inline-form(2);
+}
+
+// Input
+
+input {
+	padding: $input-padding;
+	@include border-radius( $input-border-radius );
+	border: none;
+	width: auto;
+	background: rgba(0, 0, 0, .1);
+	color: $color_black;
+	
+	&[type=submit],
+	&[type=reset] {
+
+		background: rgba(0, 0, 0, .3);
+		color: $white;		
+
+		&:hover {
+			background: rgba(0, 0, 0, .4);		
+		}
+		&:focus {
+			background: rgba(0, 0, 0, .5);		
+		}
+	}
+
+	&[type=password],
+	&[type=text] {
+		width: 100%;
+	}
+	&[type=file] {
+		padding: 0;
+		background: none;
+	}
+}
+
+// Textarea
+
 textarea {
 	@extend input;
-	@extend blockquote;
-	margin: 0; // In a <p> tag
+	width: 100%;
 }

@@ -3,17 +3,13 @@
    ========================================================================== */
 
 html, 
-body,
-#page {
-	height: 100%; /* Important for sticky footer */
+body {
+	min-height: 100%; 
 }
 
 .section {
 	width: 100%;
-	padding: 1em 3%;
-	@include breakpoint($tablet) {
-		padding: 3em 3%;
-	}
+	padding: $section-padding;
 
 	.container {
 		position: relative; // Allow absolute positioning of elements

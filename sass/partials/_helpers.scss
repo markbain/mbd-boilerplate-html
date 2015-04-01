@@ -75,8 +75,8 @@
 
 .button {
   	display: inline-block;
-	@include border-radius(5px);
-	padding: .77em;	
+	@include border-radius($input-border-radius);
+	padding: $input-padding;	
 	text-align: center;
 
 

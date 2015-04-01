@@ -18,7 +18,7 @@
 body {
 	color: $color_text;
 	background: #ddd;
-	text-align: center;
+	text-align: left;
 	font-family: 'Ubuntu', sans-serif;
 	@include breakpoint( $mobile-horizontal ) {
 		// text-align: left;

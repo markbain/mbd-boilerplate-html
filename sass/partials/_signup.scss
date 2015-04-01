@@ -39,30 +39,3 @@ form {
 			}		
 	}
 }
-
-input {
-	padding: 1em 10px;
-	border: none; // 1px solid $light-grey
-	width: 100%;
-	border-radius: 5px;
-	background: rgba(0, 0, 0, .1);
-	color: $color_black;
-	
-	&[type=submit] {
-		// @include cta-primary;
-
-		background: rgba(0, 0, 0, .3);
-		color: $color_white;		
-		border: none;
-		@include breakpoint( $mobile ) {
-			width: auto;
-		}
-
-		&:hover {
-			background: rgba(0, 0, 0, .4);		
-		}
-		&:focus {
-			background: rgba(0, 0, 0, .5);		
-		}
-	}
-}
