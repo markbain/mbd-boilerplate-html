@@ -20,7 +20,7 @@ To create a fully-optimised, versioned copy of your project:
 
 * Run `grunt rc-fix` to create a patch version
 * Run `grunt rc-min` to create a minor version
-* Run `grunt rc-maj` to create a major versionç
+* Run `grunt rc-maj` to create a major version
 
 Distribution
 ----
