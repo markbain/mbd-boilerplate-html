@@ -1,7 +1,8 @@
+/*! Version: 1.1.1 */
 // Reset, Variables, Mixins, Etc
 // DO NOT EDIT ORDER OF FILE
 
-/* Colors */
+// Colors
 @import "colors/colors"; // Set up color vars and palettes
 
 @import "partials/color-me-sass";
@@ -23,7 +24,7 @@
 @import "partials/h5bp-global";
 @import "partials/general";
 
-/* Typography */
+// Typography
 @import "typography/typography";
 
 // @import "partials/grid";
