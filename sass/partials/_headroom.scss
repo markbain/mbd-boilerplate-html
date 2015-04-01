@@ -18,11 +18,11 @@
 
 	.headroom {
 		&--top {
-			@extend .slideUp;
+			@extend .slideUp !optional;
 		}
 	}
 	.headroom--not-top {
 		margin-top: 0;
-		@extend .slideDown;
+		@extend .slideDown !optional;
 	}
 

@@ -2,7 +2,14 @@
 
 @import "variables";
 @import "mixins";
-@import "bower";
+@import "partials/normalize";
+// @import "vendor";
+// @import "tests";
+
+// Notes
+
+// Import all variables first
+// Import bower components with variables to avoid dependency issues
 
 // Globals
 @import "partials/h5bp-global";
@@ -29,7 +36,6 @@
 @import "partials/quotes";
 @import "partials/media-object";
 @import "partials/tables";
-@import "partials/3d-button";
 @import "partials/headroom";
 
 
@@ -45,16 +51,9 @@
 // Page Templates
 @import "partials/page-home";
 @import "partials/page-blog";
-
-// Widgets, Search, Comments, Forms, Sharing
-@import "partials/widgets";
-@import "partials/comments";
 @import "partials/forms";
 
 // Helper Classes, Print, Etc
 @import "partials/helpers";
 @import "partials/print";
-@import "partials/animate";
 
-// Tests
-@import "partials/tests";

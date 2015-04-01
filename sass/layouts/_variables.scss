@@ -1,0 +1,31 @@
+// General
+$container-width: 64em; // Set max width of container element in ems.
+$pageWidth: 100%;
+$textblock-width: 100%;
+$block-padding: 1em 10%;
+$section-padding: 2em 15%;
+$side-padding: 0 10%;
+$width_menu-item: 150px; // Dropdown menu needs fixed width for positioning
+$input-padding: 1em 10px;
+$input-border-radius: 5px;
+
+// Masonry
+// Apply these to the .grid-sizer and .gutter-sizer elements, plus the items themselves.
+$grid-sizer-1: 47.5%; // 2 columns, gutter x1
+$grid-sizer-2: 30%; // 3 columns, gutter x2
+$gutter-sizer-1: 5%; // width of gutter
+
+// Breakpoint
+$mobile: 320px;
+$mobile-horizontal: 480px;
+$tablet: 768px;
+$tablet-horizontal: 1024px;
+$desktop: 1280px;
+$desktop-wide: 1500px;
+$breakpoint-to-ems: true;
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
+// Singularity
+@import "../../bower_components/singularity/stylesheets/singularitygs";
+$grids: add-grid(24 at 480px);
+$gutters: 1/3;

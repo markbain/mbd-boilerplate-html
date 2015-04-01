@@ -1,5 +1,8 @@
-/* Typography -- Variables */
-
-	/* Modular Scale */
-		$ms-base: 1rem;
-		$ms-ratio: $major-third;
+$base-font-size: 16px;
+// Modular Scale
+@import "../../bower_components/modular-scale/stylesheets/modular-scale";
+$ms-base: 1rem;
+$ms-ratio: $major-third;
+// Font Awesome
+$fa-font-path: "../../fonts";
+@import "../../bower_components/fontawesome/scss/font-awesome";

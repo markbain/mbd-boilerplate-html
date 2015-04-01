@@ -1,41 +1,43 @@
-/* ==========================================================================
-   Variables
-   ========================================================================== */
+$white: rgba(255,255,255,1);
 
-// Font Face
-// @include fontface('FONT_NAME', 'assets/fonts/', 'FONT_FAMILY');
-
-$container-width: 64em; // Set max width of container element in ems.
-$pageWidth: 100%;
-$textblock-width: 100%;
-$block-padding: 1em 10%;
-$section-padding: 2em 15%;
-$side-padding: 0 10%;
-$width_menu-item: 150px; // Dropdown menu needs fixed width for positioning
-
-$input-padding: 1em 10px;
-$input-border-radius: 5px;
-
-	/* Masonry layouts */
-
-	// Apply these to the .grid-sizer and .gutter-sizer elements, plus the items themselves.
-
-	$grid-sizer-1: 47.5%; // 2 columns, gutter x1
-	$grid-sizer-2: 30%; // 3 columns, gutter x2
-	$gutter-sizer-1: 5%; // width of gutter
-
-
-/* ==========================================================================
-   Colors
-   ========================================================================== */
-
-/* Import libraries */
-
-	// @import "partials/color-me-sass";
 
 /* Assign values to color names */
 
 	/* Shades */
+	
+	$color_black: 				rgba(0,0,0,.8);
+	$color_white: 				rgba(255,255,255,1);
+
+	$color_white-bright: 	#fff;
+
+	$color_grey: 				darken($color_white, 50%);
+	$color_grey-light: 		darken($color_white, 10%);
+
+
+	/* BBWondrousWovenMagic */
+
+	/* http://www.colourlovers.com/palette/3532789/BBWondrousWovenMagic */
+
+	$color_cape-palliser:				#A66E42; 	// palette-1
+	$color_leather:						#916453; 	// palette-2
+	$color_falcon:						#755669; 	// palette-3
+	$color_victoria-1:					#59497F; 	// palette-4
+	$color_victoria-2:					#433F90; 	// palette-5
+
+/* Link color names to descriptive names 
+	Use these values outside of this stylesheet!
+*/
+
+	$color_text:							$color_black; 
+	$color_text-cta:						$color_white; 
+	$color_text-cta-2:					$color_grey; 
+
+
+	
+	$color_text-selection: 				$color_victoria-2;
+	// $color_background-cta:				$color_red-psj;
+	//$color_background-cta-2:			$color_white;
+
 	
 	$color_black: 				#333;		/* example */
 	$color_white: 				rgba(255,255,255,1);	
@@ -110,31 +112,3 @@ $input-border-radius: 5px;
 		$color_background-button-hover:			$color_grey-dark;
 		$color_text-button-active:					$color_white;
 		$color_background-button-active:			darken( $color_grey-dark, 20%);
-
-/* ==========================================================================
-   Singularity
-   ========================================================================== */
-
-	// $grids: 									24;
-	$grids: 									add-grid(24 at 480px);
-
-	$gutters: 								1/3;
-
-/* ==========================================================================
-   Breakpoint
-   ========================================================================== */
-
-	$mobile: 								320px;
-	$mobile-horizontal: 					480px;
-	$tablet: 								768px;
-	$tablet-horizontal: 					1024px;
-	$desktop: 								1280px;
-	$desktop-wide: 							1500px;
-
-	$breakpoint-to-ems: 					true;
-
-/* ==========================================================================
-   Font Awesome
-   ========================================================================== */
-
-	$fa-font-path: "../../fonts";

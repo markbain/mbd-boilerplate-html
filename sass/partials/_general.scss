@@ -81,42 +81,6 @@ img {
 	}
 }
 
-h1 {
-	@extend .h1 !optional;
-	&.page-title {
-		@extend .meta-label;
-	}
-}
-
-h2 {
-	@extend .h2 !optional;
-}
-h3 {
-	@extend .h3 !optional;
-}
-h4 {
-	@extend .h4 !optional;
-}
-h5 {
-	@extend .h4 !optional;
-}
-h6 {
-	@extend .h4 !optional;
-}
-
-.h1 {	
-	font-size: 3.998em;
-	margin-top: 0;
-
-	line-height: .85; 
-	text-transform: none;
-}
-
-.h2 { 
-	font-size: 2.827em;
-
-	font-weight: 900; 
-}
 
 .h2-meta { 
 	@extend .meta;
