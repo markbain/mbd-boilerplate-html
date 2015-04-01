@@ -14,4 +14,14 @@ Usage
 ---
 * Run `grunt` to execute default tasks
 * Run `grunt rc` to create build files
-* Run `grunt dist` to output an archive for upload
+
+Optimisation/Versioning
+----
+* Run `grunt rc-*` to create a fully-optimised, versioned copy of your project.
+** Run `grunt rc-fix` to create a patch version
+** Run `grunt rc-min` to create a minor version
+** Run `grunt rc-maj` to create a major versionç
+
+Distribution
+----
+* Run `grunt dist` to zip the latest RC archive for upload to you server. 

@@ -26,19 +26,53 @@ module.exports = function(grunt) {
             livereload: {
                 options: { livereload: true },
                 files: [ 
-					 	'httpdocs/*.php',
-					 	'httpdocs/*.html',  
-						'httpdocs/includes/**/*.php', 
-						'Gruntfile.js',
-						'httpdocs/style.css', 
-						'httpdocs/assets/js/source/**/*.js', 
-						'httpdocs/assets/images/**/*.{png,jpg,jpeg,gif,webp,svg}']
+					'Gruntfile.js',
+					'httpdocs/*.php',
+				 	'httpdocs/*.html',  
+					'httpdocs/includes/**/*.php', 
+					'httpdocs/assets/css/source/style.css', 
+					'httpdocs/assets/js/source/**/*.js', 
+					'httpdocs/assets/images/**/*.{png,jpg,jpeg,gif,webp,svg}'
+				]
             }
         
         },
 		
+		concat: {
+			main: {
+		      	src: [
+			      	'rc/assets/js/source/custom/**/*.js'
+      			],
+		      	dest: '.tmp/js/main.js',
+		    },
+		    plugins: {
+		      	src: [
+			      	'rc/assets/js/source/vendor/**/*.js'
+      			],
+		      	dest: '.tmp/js/plugins.js',
+		    },
+		},
 
-
+		cssmin: {
+			main: {
+		      	src: 'rc/assets/css/source/**/*.css',
+		      	dest: 'rc/assets/css/build/style.min.css',
+		    },
+		},
+		uglify: {
+			main: {
+		      	src: [
+			      	'.tmp/js/main.js'
+      			],
+		      	dest: 'rc/assets/js/build/main.min.js',
+		    },
+		    plugins: {
+		      	src: [
+			      	'.tmp/js/plugins.js'
+      			],
+		      	dest: 'rc/assets/js/build/plugins.min.js',
+		    },
+		},
 			// Modernizr
 			modernizr: {
     			dist: {
@@ -59,7 +93,7 @@ module.exports = function(grunt) {
                     style: 'expanded',
                 },
                 files: {
-                    'httpdocs/assets/css/style.css': 'sass/styles.scss',
+                    'httpdocs/assets/css/source/style.css': 'sass/styles.scss',
                 }
             }
         },
@@ -73,8 +107,8 @@ module.exports = function(grunt) {
             },
 				dist: { // Target
 					files: {
-                	'httpdocs/assets/css/style.css': 'httpdocs/assets/css/style.css'
-						}
+                	'rc/assets/css/source/style.css': 'rc/assets/css/source/style.css'
+				}
             },
         },
 
@@ -90,22 +124,31 @@ module.exports = function(grunt) {
 
 		// Usemin
 		useminPrepare: {
-	      html: 'httpdocs/index.html',
+			html: {
+				html: 'index.php'
+			},
 	     	options: {
-      		dest: 'rc'
-    		}
-	  },
-	  usemin:{
-	  	html: 'rc/index.html',
-	  },
+      			dest: 'rc',
+      			root: 'httpdocs'
+    		},
+	  	},
+		usemin:{
+			html: 'rc/**/*.php',
+			options: {
+	    		assetsDirs: [
+	    			'assets/css', 
+	    			'assets/js'
+    			]
+		  	}
+		},
 
 		 // Version
-		 version: {
+		 version: {		 	
 		 	css: {
         		options: {
             	prefix: 'Version\\:\\s'
         		},
-        		src: [ 'rc/assets/css/source/style.css' ],
+        		src: [ 'sass/styles.scss' ],
    		}
 		},
 
@@ -161,14 +204,14 @@ module.exports = function(grunt) {
 					cwd: 'httpdocs/',
 					src: [
 						'**',
-						'!assets/css/**',
-						'!assets/js/**',					
+						//'!assets/css/**',
+						//'!assets/js/**',					
 						
 					], 
 					dest: 'rc/'},
 				],
 			},
-			font_awesome: {
+			fontAwesome: {
 				 expand: true,
 				 flatten: true,
 				 src: ['bower_components/fontawesome/fonts/*'],
@@ -210,33 +253,50 @@ module.exports = function(grunt) {
 
     grunt.registerTask('default', [
 	 	'sass', 
-		'autoprefixer',
 		'watch'
 	]);
 
 	// Create a release candidate for testing locally
-	grunt.registerTask('rc', [
-		'bump:patch',
+	grunt.registerTask('create-rc', [
+		// Increase the project version
+		'version',
+		'sass', // Compile CSS with new version
+		// Create new RC
 		'clean:rc', // delete previous rc
-		'copy:rc', 		
+		'copy:rc', 
+		// Optimise RC
+		'autoprefixer',		
 		'useminPrepare',
-			'concat:generated',
-			'uglify:generated',
-			'cssmin:generated',
+		'concat',
+		'cssmin',
+		'uglify',
 		'usemin',
-		'imagemin',
 	]);
 	
+	// Create a release candidate for testing locally
+	grunt.registerTask('rc-fix', [
+		// Increase the project version
+		'bump:patch',
+		'create-rc',
+	]);
+	grunt.registerTask('rc-min', [
+		// Increase the project version
+		'bump:minor',
+		'create-rc',
+	]);	
+	grunt.registerTask('rc-maj', [
+		// Increase the project version
+		'bump:major',
+		'create-rc',
+	]);		
 	// Copy assets from bower_components to theme dir
 	grunt.registerTask('copybower', [
-		'copy:font_awesome',
+		'copy:fontAwesome',
 		'copy:modernizr'
 	]);	
 
 	// Compress current rc for upload to server
 	grunt.registerTask('dist', [
-		'bump:minor',
-		// 'version',
 		'copy:dist', 				
 		'compress',
 		'clean:dist',

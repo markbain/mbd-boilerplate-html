@@ -23,8 +23,8 @@
 		<meta property="og:image:height" content="630">
 		<meta property="og:image:type" content="image/png">
 
-	<!-- build:css assets/css/style.min.css -->
-		<link rel="stylesheet" href="./assets/css/style.css" />
+	<!-- build:css assets/css/build/style.min.css -->
+		<link rel="stylesheet" href="./assets/css/source/style.css" />
 	<!-- endbuild -->
 
 
