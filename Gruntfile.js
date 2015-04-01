@@ -23,6 +23,17 @@ module.exports = function(grunt) {
                 files: '<%= jshint.all %>',
                 tasks: ['jshint']
             },
+            livereload: {
+                options: { livereload: true },
+                files: [ 
+					 	'httpdocs/*.php',
+					 	'httpdocs/*.html',  
+						'httpdocs/includes/**/*.php', 
+						'Gruntfile.js',
+						'httpdocs/style.css', 
+						'httpdocs/assets/js/source/**/*.js', 
+						'httpdocs/assets/images/**/*.{png,jpg,jpeg,gif,webp,svg}']
+            }
         
         },
 		
