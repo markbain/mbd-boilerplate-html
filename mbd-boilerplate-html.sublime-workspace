@@ -128,14 +128,37 @@
 	"buffers":
 	[
 		{
-			"contents": "'use strict';\nmodule.exports = function(grunt) {\n\n    // auto-load all grunt tasks matching the `grunt-*` pattern in package.json\n    require('load-grunt-tasks')(grunt); // no need for grunt.loadNpmTasks!\n\n    grunt.initConfig({\n			pkg:    grunt.file.readJSON( 'package.json' ),\n        \n		 // watch for changes and trigger sass, jshint, uglify and livereload\n        watch: {\n            sass: {\n					options: { \n						sourcemap: true \n					},\n                files: ['sass/**/*.{scss,sass}'],\n                tasks: [\n					 	'sass', \n						'autoprefixer'\n					]\n            },\n            js: {\n                files: '<%= jshint.all %>',\n                tasks: ['jshint']\n            },\n            livereload: {\n                options: { livereload: true },\n                files: [ \n					'Gruntfile.js',\n					'httpdocs/*.php',\n				 	'httpdocs/*.html',  \n					'httpdocs/includes/**/*.php', \n					'httpdocs/assets/css/source/style.css', \n					'httpdocs/assets/js/source/**/*.js', \n					'httpdocs/assets/images/**/*.{png,jpg,jpeg,gif,webp,svg}'\n				]\n            }\n        \n        },\n		\n		concat: {\n			main: {\n		      	src: [\n			      	'rc/assets/js/source/custom/**/*.js'\n      			],\n		      	dest: '.tmp/js/main.js',\n		    },\n		    plugins: {\n		      	src: [\n			      	'rc/assets/js/source/vendor/**/*.js'\n      			],\n		      	dest: '.tmp/js/plugins.js',\n		    },\n		},\n\n		cssmin: {\n			main: {\n		      	src: 'rc/assets/css/source/**/*.css',\n		      	dest: 'rc/assets/css/build/style.min.css',\n		    },\n		},\n		uglify: {\n			main: {\n		      	src: [\n			      	'.tmp/js/main.js'\n      			],\n		      	dest: 'rc/assets/js/build/main.min.js',\n		    },\n		    plugins: {\n		      	src: [\n			      	'.tmp/js/plugins.js'\n      			],\n		      	dest: 'rc/assets/js/build/plugins.min.js',\n		    },\n		},\n			// Modernizr\n			modernizr: {\n    			dist: {\n        			// [REQUIRED] Path to the build you're using for development.\n        			\"devFile\" : \"bower_components/modernizr/modernizr.js\",\n\n        			// Path to save out the built file.\n        			\"outputFile\" : \"httpdocs/assets/js/vendor/modernizr-custom.js\",\n		    	}\n\n			},\n\n        // sass\n        sass: {\n            dist: {\n                options: {\n                    sourcemap: true,\n                    style: 'expanded',\n                },\n                files: {\n                    'httpdocs/assets/css/source/style.css': 'sass/styles.scss',\n                }\n            }\n        },\n\n        // autoprefixer\n        autoprefixer: {\n            options: {\n                browsers: ['last 2 versions', 'ie 9', 'ios 6', 'android 4', 'android 3'],\n                map: true,\n					 silent: false,\n            },\n				dist: { // Target\n					files: {\n                	'rc/assets/css/source/style.css': 'rc/assets/css/source/style.css'\n				}\n            },\n        },\n\n		  	bump: {\n    			options: {\n      			updateConfigs: ['pkg'], // make sure to check updated pkg variables\n      			createTag: false,\n      			push: false,\n    			}\n  			},\n\n	\n\n		// Usemin\n		useminPrepare: {\n			html: {\n				html: 'index.php'\n			},\n	     	options: {\n      			dest: 'rc',\n      			root: 'httpdocs'\n    		},\n	  	},\n		usemin:{\n			header: ´{{\n			html: 'rc/includes/header.php',\n			options: {\n	    		assetsDirs: [\n	    			'assets/css', \n	    			'assets/js'\n    			]\n		  	}\n		},\n\n		 // Version\n		 version: {\n		 	css: {\n        		options: {\n            	prefix: 'Version\\\\:\\\\s'\n        		},\n        		src: [ 'rc/assets/css/source/style.css' ],\n   		}\n		},\n\n\n        // javascript linting with jshint\n        jshint: {\n            options: {\n                jshintrc: '.jshintrc',\n                \"force\": true\n            },\n            all: [\n                'Gruntfile.js',\n                'httpdocs/assets/js/source/**/*.js'\n            ]\n        },\n			\n	\n\n	\n\n        // image optimization\n        imagemin: {\n            dist: {\n                options: {\n                    optimizationLevel: 7,\n                    progressive: true,\n                    interlaced: true\n                },\n                files: [{\n                    expand: true,\n                    cwd: 'httpdocs/rc/assets/images/',\n                    src: ['**/*.{png,jpg,gif}'],\n                    dest: 'httpdocs/rc/assets/images/'\n                }]\n            }\n        },\n\n		  // Copy the plugin to a versioned release directory\n		  copy: {\n			dist: {\n				files:  [\n      			{expand: true, \n					cwd: 'rc/',\n					src: [\n						'**',						\n					], \n					dest: 'dist/<%= pkg.name %>.<%= pkg.version %>/'},\n				],\n			},\n			rc: {\n				files:  [\n      			{expand: true, \n					cwd: 'httpdocs/',\n					src: [\n						'**',\n						//'!assets/css/**',\n						//'!assets/js/**',					\n						\n					], \n					dest: 'rc/'},\n				],\n			},\n			fontAwesome: {\n				 expand: true,\n				 flatten: true,\n				 src: ['bower_components/fontawesome/fonts/*'],\n				 dest: 'httpdocs/assets/fonts'\n			},\n			modernizr: {\n				 expand: true,\n				 flatten: true,\n				 src: ['bower_components/modernizr/modernizr.js'],\n				 dest: 'httpdocs/assets/js/source/vendor'\n			},\n		},\n\n		clean: {\n			dist: [\n				'dist/<%= pkg.name %>.<%= pkg.version %>'\n			],\n			rc: [\n				'rc'\n			],					\n		},\n\n		compress: {\n			main: {\n				options: {\n					mode: 'zip',\n					archive: 'dist/<%= pkg.name %>.<%= pkg.version %>.zip'\n				},\n				expand: true,\n				cwd: 'dist/<%= pkg.name %>.<%= pkg.version %>',\n				src: ['**/*'],\n				dest: '<%= pkg.name %>/'\n			}		\n		}\n\n    });\n\n    // register tasks\n\n    grunt.registerTask('default', [\n	 	'sass', \n		'watch'\n	]);\n\n	// Create a release candidate for testing locally\n	grunt.registerTask('rc', [\n		'bump:patch',\n		'clean:rc', // delete previous rc\n		'copy:rc', \n		'autoprefixer',		\n		'useminPrepare',\n		'concat',\n		'cssmin',\n		'uglify',\n		'usemin',\n		'imagemin',\n	]);\n	\n	// Copy assets from bower_components to theme dir\n	grunt.registerTask('copybower', [\n		'copy:fontAwesome',\n		'copy:modernizr'\n	]);	\n\n	// Compress current rc for upload to server\n	grunt.registerTask('dist', [\n		'bump:minor',\n		// 'version',\n		'copy:dist', 				\n		'compress',\n		'clean:dist',\n	]);	\n\n};\n",
-			"file": "Gruntfile.js",
-			"file_size": 6334,
-			"file_write_time": 130723510166061233,
+			"file": "sass/styles.scss",
 			"settings":
 			{
-				"buffer_size": 6061,
+				"buffer_size": 1702,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/partials/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 4029,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bower_components/fontawesome/scss/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 15594,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 333 files for \"$fa-font-path\"\n\n0 matches across 0 files\n",
+			"settings":
+			{
+				"buffer_size": 66,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
 			}
 		}
 	],
@@ -200,28 +223,44 @@
 	[
 		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs",
 		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes",
+		"/C/xampp/htdocs/mbd-boilerplate-html/sass",
+		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials",
+		"/C/xampp/htdocs/mbd-boilerplate-html/sass/typography",
 		"/C/xampp/htdocs/mbd-boilerplate-html"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/mbd-boilerplate-html/rc/includes/header.php",
-		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes/header.php",
+		"/C/xampp/htdocs/dn-digital/bower_components/fontawesome/scss/_path.scss",
+		"/C/xampp/htdocs/mbd-boilerplate-html/Gruntfile.js",
+		"/C/xampp/htdocs/dn-digital/sass/partials/_variables.scss",
+		"/C/xampp/htdocs/dn-digital/bower_components/fontawesome/scss/_variables.scss",
+		"/C/xampp/htdocs/mbd-boilerplate-html/bower_components/fontawesome/scss/_variables.scss",
+		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_variables.scss",
+		"/C/xampp/htdocs/dn-digital/bower_components/fontawesome/css/font-awesome.css",
+		"/C/xampp/htdocs/mbd-boilerplate-html/README.md",
+		"/C/xampp/htdocs/mbd-boilerplate-html/sass/typography/_variables.scss",
+		"/C/xampp/htdocs/mbd-boilerplate-html/bower_components/fontawesome/scss/font-awesome.scss",
+		"/C/xampp/htdocs/mbd-boilerplate-html/dist/mbd-boilerplate-html.0.5.0/mbd-boilerplate-html/assets/css/build/style.min.css",
+		"/C/xampp/htdocs/mbd-boilerplate-html/dist/mbd-boilerplate-html.1.1.1/mbd-boilerplate-html/assets/css/build/style.min.css",
+		"/C/xampp/htdocs/mbd-boilerplate-html/sass/styles.scss",
+		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/assets/css/source/style.css",
 		"/C/xampp/htdocs/mbd-boilerplate-html/rc/assets/css/build/style.min.css",
+		"/C/xampp/htdocs/mbd-boilerplate-html/package.json",
+		"/C/xampp/htdocs/mbd-boilerplate-html/rc/assets/css/source/style.css",
+		"/C/xampp/htdocs/mbd-boilerplate-html/rc/includes/header.php",
+		"/C/xampp/htdocs/mbd-boilerplate-html/rc/includes/footer.php",
+		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes/header.php",
 		"/C/xampp/htdocs/mbd-boilerplate-html/rc/assets/js/build/main.min.js",
 		"/C/xampp/htdocs/mbd-boilerplate-html/rc/assets/js/build/plugins.min.js",
-		"/C/xampp/htdocs/mbd-boilerplate-html/package.json",
 		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/index.php",
 		"/C/xampp/htdocs/mbd-boilerplate-html/.gitignore",
 		"/C/xampp/htdocs/mbd-boilerplate-html/mbd-boilerplate-html.sublime-project",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes/footer.php",
 		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/assets/js/custom/custom.js",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/styles.scss",
 		"/C/xampp/htdocs/mbd-boilerplate-html/mbd-boilerplate-html",
-		"/C/xampp/htdocs/mbd-boilerplate-html/Gruntfile.js",
 		"/C/xampp/htdocs/ieltsjam/package.json",
 		"/C/xampp/htdocs/ieltsjam/httpdocs/index.html",
-		"/C/xampp/htdocs/mbd-boilerplate-html/README.md",
 		"/C/xampp/htdocs/ieltsjam/bower.json",
 		"/C/xampp/htdocs/oxfordtefl/.gitignore",
 		"/C/xampp/htdocs/oxfordtefl/httpdocs/wp-config.php",
@@ -318,20 +357,7 @@
 		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/fashion.php",
 		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/category-fashion.php",
 		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/category-beauty.php",
-		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/category.php",
-		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/marketpress/marketpress-includes/marketpress-data.php",
-		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/marketpress/marketpress.php",
-		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/marketpress/marketpress-includes/constants.php",
-		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/marketpress/marketpress-includes/marketpress-shortcodes.php",
-		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/fashiongallery.php",
-		"/C/xampp/htdocs/mhairi-mcfarlane/httpdocs/wp-content/themes/varee/content-archive.php",
-		"/C/xampp/htdocs/mhairi-mcfarlane/httpdocs/wp-content/themes/varee/archive.php",
-		"/C/Users/Mark & Aida/Dropbox/Projects - Clients/DN Digital/DN Digital (Shared)/images/dndigital-logo-black.svg",
-		"/C/Users/Mark & Aida/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Mark & Aida/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/xampp/htdocs/dn-digital/sass/partials/_post-list.scss",
-		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/front-page.php",
-		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/index.php"
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/category.php"
 	],
 	"find":
 	{
@@ -352,6 +378,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$fa-font-path",
 			"bcn_display();",
 			"hooks",
 			"home",
@@ -422,30 +449,121 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Gruntfile.js",
+					"file": "sass/styles.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6061,
+						"buffer_size": 1702,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3171,
-								3171
+								578,
+								578
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2285.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/partials/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3822,
+								3822
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bower_components/fontawesome/scss/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -519,7 +637,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\Mark & Aida\\Dropbox\\Projects - Clients\\iSolarWorkx\\isolarworkx.sublime-project"
+				"C:\\Users\\Mark & Aida\\Dropbox\\Projects - Clients\\DN Digital\\dndigital.sublime-project"
 			]
 		],
 		"width": 475.0

@@ -125,8 +125,12 @@ $width_menu-item: 150px; // Dropdown menu needs fixed width for positioning
 	$tablet: 								768px;
 	$tablet-horizontal: 					1024px;
 	$desktop: 								1280px;
-	$desktop-wide: 						1500px;
+	$desktop-wide: 							1500px;
 
 	$breakpoint-to-ems: 					true;
-	
-	$fa-font-path: "../../fonts" !default;
+
+/* ==========================================================================
+   Font Awesome
+   ========================================================================== */
+
+	$fa-font-path: "../../fonts";

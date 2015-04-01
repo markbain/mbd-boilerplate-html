@@ -1,23 +1,8 @@
 /*! Version: 1.1.1 */
-// Reset, Variables, Mixins, Etc
-// DO NOT EDIT ORDER OF FILE
 
-// Colors
-@import "colors/colors"; // Set up color vars and palettes
-
-@import "partials/color-me-sass";
-@import "partials/mixins";
-@import "partials/variables";
-@import "partials/normalize";
-
-
-
-// Bower Components
-
-@import "../bower_components/singularity/stylesheets/singularitygs";
-@import "../bower_components/fontawesome/scss/font-awesome";
-@import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
-@import "../bower_components/modular-scale/stylesheets/modular-scale";
+@import "variables";
+@import "bower";
+@import "mixins";
 
 
 // Globals
