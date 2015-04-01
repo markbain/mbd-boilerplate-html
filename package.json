@@ -1,6 +1,6 @@
 {
   "name": "mbd-boilerplate-html",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "devDependencies": {
     "grunt": "~0.4.4",
     "grunt-autoprefixer": "~0.7.2",
