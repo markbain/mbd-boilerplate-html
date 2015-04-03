@@ -162,14 +162,14 @@ object {
 
 .categories-links {
 	h4 {
-		@extend .h2-meta;	
+		@extend .h2-meta !optional;	
 		margin-bottom: 5px;
 	}
 }
 
 .tags-links {
 	h4 {
-		@extend .h2-meta;
+		@extend .h2-meta !optional;
 		margin-bottom: 5px;
 	}
 }

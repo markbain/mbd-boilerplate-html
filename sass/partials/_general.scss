@@ -66,42 +66,6 @@ img {
 }
 
 
-/* ==========================================================================
-   Typography
-   ========================================================================== */
-
-
-.h1, .h2, .h3, .h4, .h5, .h6 {
-	margin: 0.5em 0;
-	clear: both;
-	// font-family: 'Alfa Slab One', sans-serif;
-
-	a {
-		border-bottom: none;
-	}
-}
-
-
-.h2-meta { 
-	@extend .meta;
-
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-weight: 300;
-}
-
-
-.h3 { 
-	font-size: 1.999em;
-}
-
-.h4 { 
-	font-size: 1.414em;
-}
-
-small, .font_small {
-	font-size: 0.707em;
-}
 
 p {
 	margin: 0 0 1em 0; // Browser will set "margin-before", so be explicit!

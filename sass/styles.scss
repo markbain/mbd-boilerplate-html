@@ -1,13 +1,16 @@
 /*! Version: 1.1.1 */
 
 @import "variables";
-@import "mixins";
+
 @import "partials/normalize";
 // @import "vendor";
 // @import "tests";
 
-// Notes
 
+
+
+// Notes
+@import "mixins";
 // Import all variables first
 // Import bower components with variables to avoid dependency issues
 
@@ -38,10 +41,6 @@
 @import "partials/tables";
 @import "partials/headroom";
 
-
-// Flexslider
-@import "partials/flexslider";
-@import "partials/flexslider-mods";
 
 // Menus, Page and Post styles
 @import "partials/responsive-nav";
