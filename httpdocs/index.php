@@ -3,6 +3,7 @@
 	$title = 'MBD Boilerplate HTML';
 	$description = 'The greatest boilerplate under the sun!';
 	$keywords = 'Boilerplate, Cool, Great';
+	$body_class = 'frontpage';
 	include_once('./includes/header.php');
 ?>
 

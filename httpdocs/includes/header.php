@@ -27,11 +27,6 @@
 		<link rel="stylesheet" href="./assets/css/source/style.css" />
 	<!-- endbuild -->
 
-
-	<!-- Webfonts -->
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Monofett' rel='stylesheet' type='text/css'>
-
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -57,6 +52,33 @@
 	-->
 </head>
 
-<body>
-<header></header>
+<body class="<?php echo $body_class; ?>">
+<header class="site-header">
+	<div class="section">
+		<div class="container">
+			<div class="site-branding">
+				<div class="site-title">
+					<a href="/" rel="home" class="h5"><strong>Site</strong><span>title</span></a>									
+				</div>
+				<div class="site-description font_small">
+					<p>Site description</p>									
+				</div>
+				<!-- <a id="nav-toggle" class="toggle">
+					<span class="visuallyhidden">Menu</span>
+				</a> -->
+			</div>				
+			<div id="main-nav-wrapper">
+				<nav class="nav-collapse main-navigation">
+					<ul class="nav-collapse main-navigation">
+					<li><a href="#" class="button">Item 1</a></li>
+					<li><a href="#" class="button">Item 2</a></li>
+					<li><a href="#" class="button">Item 3</a></li>
+					<li><a href="#" class="cta button cta-primary">Item 4</a></li>
+					</ul>	
+				</nav>
+			</div>
+			
+		</div>
+	</div>	
+</header>
 <main>

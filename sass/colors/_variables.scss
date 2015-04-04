@@ -1,7 +1,41 @@
+// Brand
+$pink: #FC93A1;
+$mockingbird: #FEB07B;
+$pale_ivy: #B8D4CA;
+$manilla: #E3D7AA;
+$white_rock: #E9EBD9;
+
+// Social
+$twitter: #00aced;
+$facebook: #3b5998;
+$googleplus: #dd4b39;
+$pinterest: #cb2027;
+$linkedin: #007bb6;
+$youtube: #E14E50;
+$vimeo: #aad450;
+$tumblr: #32506d;
+$instagram: #517fa4;
+$flickr: #ff0084;
+$dribbble: #ea4c89;
+$quora: #a82400;
+$foursquare: #0072b1;
+$forrst: #5B9A68;
+$vk: #45668e;
+$wordpress: #21759b;
+$stumbleupon: #EB4823;
+$yahoo: #7B0099;
+$blogger: #fb8f3d;
+$soundcloud: #ff3a00;
+
 $white: rgba(255,255,255,1);
-
-
-/* Assign values to color names */
+$black: darken( $manilla, 69% );
+$grey: rgba(0,0,0,.5);
+$leather: #916453;
+$pink: #FC93A1;
+$mockingbird: #FEB07B;
+$pale_ivy: #B8D4CA;
+$manilla: #E3D7AA;
+$white_rock: #E9EBD9;
 
 	/* Shades */
 	
@@ -13,30 +47,13 @@ $white: rgba(255,255,255,1);
 	$color_grey: 				darken($color_white, 50%);
 	$color_grey-light: 		darken($color_white, 10%);
 
-
-	/* BBWondrousWovenMagic */
-
-	/* http://www.colourlovers.com/palette/3532789/BBWondrousWovenMagic */
-
-	$color_cape-palliser:				#A66E42; 	// palette-1
-	$color_leather:						#916453; 	// palette-2
-	$color_falcon:						#755669; 	// palette-3
-	$color_victoria-1:					#59497F; 	// palette-4
-	$color_victoria-2:					#433F90; 	// palette-5
-
-/* Link color names to descriptive names 
-	Use these values outside of this stylesheet!
-*/
-
 	$color_text:							$color_black; 
 	$color_text-cta:						$color_white; 
 	$color_text-cta-2:					$color_grey; 
 
 
 	
-	$color_text-selection: 				$color_victoria-2;
-	// $color_background-cta:				$color_red-psj;
-	//$color_background-cta-2:			$color_white;
+	$color_text-selection: 				$white_rock;
 
 	
 	$color_black: 				#333;		/* example */
@@ -106,9 +123,17 @@ $white: rgba(255,255,255,1);
 	$color_border: 						$color_black;
 
 	// Buttons
-	$color_text-button:					$color_grey;
-	$color_background-button:			$color_grey-light;
-		$color_text-button-hover:					$color_white;
-		$color_background-button-hover:			$color_grey-dark;
-		$color_text-button-active:					$color_white;
-		$color_background-button-active:			darken( $color_grey-dark, 20%);
+	$color_button:						darken( $manilla, 50% );
+	$color_background-button:			$manilla;
+	$color_button-hover:				$color_button;
+	$color_background-button-hover:		$pale_ivy;
+	$color_button-active:				$color_button;
+	$color_background-button-active:	$mockingbird;
+
+	// Main sections
+	$color_section-header: $pale_ivy;
+	$color_background-section-header: $white;
+	//$color_section-main:;
+	//$color_background-section-main:;
+	$color_section-footer: $pale_ivy;
+	$color_background-section-footer: $white;

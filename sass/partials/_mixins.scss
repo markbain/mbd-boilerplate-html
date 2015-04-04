@@ -92,53 +92,6 @@
 	}
 }
 
-/* Mixin for Call to action buttons */
-
-@mixin cta-primary {
-	
-	padding: 5px 10px;		
-	border-radius: 5px;
-	
-	&:link, &:visited, {
-
-		background: 	$color_background-cta;
-		text-transform: uppercase;
-		color: $color_text-cta;
-		font-family: "tablet-gothic", sans-serif;
-		font-weight: 800;
-		line-height: 1;
-		text-decoration: none;
-		letter-spacing: 2px;
-	}
-
-	&:hover {
-		background: darken(	$color_background-cta, 10%);
-	}
-
-	&:active {
-		background: darken(	$color_background-cta, 15%);
-	}
-
-}
-
-@mixin cta-secondary {
-	&:link, &:visited {
-		color: $color_text-cta-2;
-		font-family: "abril-text", sans-serif;
-		font-weight: 400;
-		font-style: italic;
-		text-decoration: none;
-	}
-
-	&:hover {
-		color: darken($color_text-cta-2, 30%);
-	}
-
-	&:active {
-		color: darken($color_text-cta-2, 50%);
-	}
-}
-
 // Border Radius
 
 // Always a handy mixin. Set every border radius or just a single side without worrying about all those prefixes.
@@ -328,7 +281,6 @@
 	}
 }
 @mixin inline-form( $inputs ){
-	margin: 0 auto;
 	display: table;
 	width: 100%;
 	vertical-align: bottom;

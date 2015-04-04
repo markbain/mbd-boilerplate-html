@@ -16,6 +16,37 @@ ul.social-media-links {
 			}
 		}
 	}
+	a {
+		border-bottom: none;
+	&.twitter {
+		i {
+			&.fa-circle {
+				color: $twitter;
+			}
+		}
+	}
+	&.facebook {
+		i {
+			&.fa-circle {
+				color: $facebook;
+			}
+		}
+	}
+	&.youtube {
+		i {
+			&.fa-circle {
+				color: $youtube;
+			}
+		}
+	}
+	&.instagram {
+		i {
+			&.fa-circle {
+				color: $instagram;
+			}
+		}
+	}
+}
 }
 
 // Tweaks

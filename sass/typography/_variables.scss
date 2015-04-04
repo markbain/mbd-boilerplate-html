@@ -1,4 +1,14 @@
 $base-font-size: 12px;
+
+// Google Fonts
+@import url("http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,400italic");
+
+// Font Stack
+$base-font-family: "Droid Serif";
+$base-font-stack: $base-font-family, serif;
+$alt-font-family: "Droid Sans";
+$alt-font-stack: $alt-font-family, sans-serif;
+
 // Modular Scale
 @import "../../bower_components/modular-scale/stylesheets/modular-scale";
 $ms-base: 1rem;

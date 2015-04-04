@@ -13,21 +13,22 @@
 
 .main-navigation {
 	display: block;
-	font-size: 2em;
 	@include breakpoint($tablet){
-		margin-left: 200px;
 		text-align: right;
-		font-size: 1em;
 	}
 
 }
 
 .main-navigation ul {
 	@include clearfix;
-	font-weight: normal;	list-style: none;
+	font-weight: normal;	
+	list-style: none;
 	margin: 15px 0 0 0;
 	@include breakpoint($tablet){
-		margin: 0;	
+		margin: 0;
+		text-align: right;
+		width: 100%;
+  		display: block;	
 	}
 	&.sub-menu {
 		@include breakpoint($tablet){
@@ -96,25 +97,9 @@
 		}
 
 		a {
-			width: 100%;
-			display: block;
-			padding: .77em 10px;
-			@include border-radius(5px);
-			&:hover {
-				background: rgba(0,0,0,.1);
-			}
-			&:active {
-				background: rgba(0,0,0,.3);
-			}
+			@extend .button;
 			@include breakpoint( $tablet ){
-				padding: 0;
-				border-radius: none;
-				&:hover {
-					background: none;
-				}
-				&:active {
-					background: rgba(0,0,0,.3);
-				}
+
 			} 
 		}
 

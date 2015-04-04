@@ -131,4 +131,21 @@ a#search-toggle {
 	}
 }
 
-
+/* Box */
+.box {
+	&.one {
+		@include breakpoint( $mobile-horizontal ) {
+			@include grid-span(4, 1);
+		}
+	}
+	&.two {
+		@include breakpoint( $mobile-horizontal ) {
+			@include grid-span(4, 5);
+		}
+	}
+	&.three {
+		@include breakpoint( $mobile-horizontal ) {
+			@include grid-span(4, 9);
+		}
+	}
+}

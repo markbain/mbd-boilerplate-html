@@ -30,4 +30,7 @@ html {
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
 	@include clearfix;
+	font-family: $alt-font-stack;
 }
+
+body {font-family: $base-font-stack;}

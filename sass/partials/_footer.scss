@@ -2,12 +2,8 @@
    Footer
    ========================================================================== */
 .site-footer {
-	font-family: 'tablet-gothic', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	.container {
-		max-width: 100%;
-	}
+	background: $color_background-section-footer;
+	color: $color_section-footer;
 	.site-info {
 		margin-bottom: 1em;
 		@extend .font_small !optional;
@@ -18,21 +14,7 @@
 		}
 	}
 
-	a {
-		border-bottom: none;
-
-		&:link {
-			color: $color_white;
-		}
-		&:visited {
-	 		color: $color_white;
-		}
-		&:hover {
-			color: $color_white-bright;;
-		}
-		&:active {
-		}
-	}
+	
 }
 
 #footer-widgets {

@@ -14,18 +14,27 @@
 }
 
 .site-header {
-	right: 0;
-	left: 0;
-	top: 0;	
-	z-index: 100;
+	background-color: $color_background-section-header;
+	color: $color_section-header;
+	
+	display: table;
+  	width: 100%;
 	margin-top: 0;
-	position: fixed;
+
 	border-bottom: $color_grey;
 	@include breakpoint( $tablet ){
-		padding: $block-padding;
 		width: 100%;
 
 	}
+
+	&:fixed {
+		right: 0;
+		left: 0;
+		top: 0;	
+		z-index: 100;
+		position: fixed;
+	}
+
 	.container {
 		max-width: 100%;
 	}
@@ -38,51 +47,60 @@
 }
 
 
+
 .site-branding {
-	display: table;
 	width: 100%;
 	@include clearfix;
 	@extend .section;
+	padding: 5px 5%;
 	.site-title {
-		display: table-cell;
-		width: auto;
-		vertical-align: middle;
-		img {
-			width: 30%;
-			max-width: 125px;
-			float: left;
+		display: block;
+		height: auto;
+		margin: 0 auto;
+		// padding-top: 5px;
+
+
+		img, #logo {
+			width: 100%;
+			&.desktop-logo {
+				display: none;
+				@include breakpoint( $tablet ){
+					display: block;
+				} 
+			}
+			&.mobile-logo {
+				@include breakpoint( $tablet ){
+					display: none;
+				} 
+			}
 		}
 	}
 	@include breakpoint( $tablet ){
-		display: block;
+		display: table-cell;
+		vertical-align: middle;
 		padding: 0;
-		float: left;
-		width: 125px;
+		width: auto;
 		.site-title {
 			float: none;
-			width: 100%;
 			img {
 				width: 100%;
 			}
 		}
 	} 
-		a {
-		display: block;
-		opacity: .8;
-		@include transition(all, 0.3s, ease-in-out); 
-		&:hover {
-			opacity: 1;
-			@include transition(all, 0.3s, ease-in-out); 
-		}
+
+	@include breakpoint( $tablet-horizontal ){
+		
+	} 
+}
+
+#main-nav-wrapper {
+	@include breakpoint( $tablet ) {
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
 	}
 }
 
-.no-js .site-branding {
-	float: none;
-	@include breakpoint($tablet){
-		float: left;
-	}
-}
 
 #pre-header-search {
 	@include breakpoint($tablet){
