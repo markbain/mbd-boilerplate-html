@@ -13,6 +13,7 @@ $alt-font-stack: $alt-font-family, sans-serif;
 @import "../../bower_components/modular-scale/stylesheets/modular-scale";
 $ms-base: 1rem;
 $ms-ratio: $major-third;
+
 // Font Awesome
 $fa-font-path: "../../fonts";
 @import "../../bower_components/fontawesome/scss/font-awesome";

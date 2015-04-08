@@ -51,7 +51,12 @@
 		<meta name="msapplication-TileImage" content="mstile-144x144.png">
 	-->
 </head>
-
+<?php 
+	// Global vars
+	$site_title = 'IELTSjam';
+	$tagline = 'Write better IELTS essays';
+	$contact_email = 'info@example.com';
+?>
 <body class="<?php echo $body_class; ?>">
 <header class="site-header">
 	<div class="section">

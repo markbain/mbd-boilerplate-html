@@ -21,7 +21,53 @@
 		<small><a href="#wrapper">[top]</a></small>
 	</div><!-- .container -->
 </div><!-- .section -->
+<div id="boxes" class="section">
+	<div class="container media-object-container">
+	<h1>Media Objects</h1> 
+		<div class="media-object write">
+			<div class="media-object-media">
+				<span class="fa-stack fa-5x">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-pencil-square-o fa-stack-1x fa-inverse"></i>
+				</span>
+			</div><!-- .media-object-media -->
+			<div class="media-object-content">
+				<header>Write practice essays </header>
+				<p>Do IELTS essays online and get feedback, expected scores and information about your strengths and weaknesses.</p>
+				<footer><a href="#">Read more <i class="fa fa-arrow-right"></i></a></footer>
+			</div><!-- .media-object-content -->
+		</div><!-- .media-object -->
 
+		<div class="media-object improve">
+			<div class="media-object-media">
+				<span class="fa-stack fa-5x">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
+				</span>
+			</div><!-- .media-object-media -->
+			<div class="media-object-content">
+				<header>Improve your skills</header>
+				<p>Complete exercises and activities which help you to improve your areas of weakness.</p>
+				<footer><a href="#">Read more <i class="fa fa-arrow-right"></i></a></footer>
+			</div><!-- .media-object-content -->
+		</div><!-- .media-object -->
+
+		<div class="media-object progress">
+			<div class="media-object-media">
+				<span class="fa-stack fa-5x">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-road fa-stack-1x fa-inverse"></i>
+				</span>
+			</div><!-- .media-object-media -->
+			<div class="media-object-content">
+				<header>See your progress</header>
+				<p>View your expected IELTS scores and see your progress towards your goals.</p>
+				<footer><a href="#">Read more <i class="fa fa-arrow-right"></i></a></footer>
+			</div><!-- .media-object-content -->
+		</div><!-- .media-object -->
+
+	</div><!-- .container -->
+</div><!-- .section -->
 <div class="section">
 	<div class="container">	
 		<h1 id="paragraph">Paragraph</h1>

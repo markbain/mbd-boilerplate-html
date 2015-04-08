@@ -183,7 +183,9 @@ input {
 	
 	&[type=submit],
 	&[type=reset] {
-		@extend .button;		
+		@extend .button;
+		color: $color_button;	
+		background: $color_background-button;		
 	}
 
 	&[type=password],

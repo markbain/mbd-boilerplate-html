@@ -5,7 +5,11 @@
 html, 
 body {
 	min-height: 100%; 
+
 }
+
+main {
+		text-align: center;}
 
 .section {
 	width: 100%;
@@ -106,46 +110,4 @@ input[type="search"] {
 
 a#search-toggle {
 	float: left;
-}
-
-/* Right sidebar */
-
-.media_block {
-	@include clearfix;
-	.media_block-text {
-		width: 100%;
-		@include breakpoint($tablet) {
-
-		}
-
-	}
-	.media_block-image {
-		text-align: center;
-		@include breakpoint($tablet) {
-
-		}
-		img {
-			margin-bottom: 1em;
-			max-width: 66px;
-		}
-	}
-}
-
-/* Box */
-.box {
-	&.one {
-		@include breakpoint( $mobile-horizontal ) {
-			@include grid-span(4, 1);
-		}
-	}
-	&.two {
-		@include breakpoint( $mobile-horizontal ) {
-			@include grid-span(4, 5);
-		}
-	}
-	&.three {
-		@include breakpoint( $mobile-horizontal ) {
-			@include grid-span(4, 9);
-		}
-	}
 }

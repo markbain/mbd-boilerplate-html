@@ -15,8 +15,7 @@
 
 .site-header {
 	background-color: $color_background-section-header;
-	color: $color_section-header;
-	
+	color: $color_section-header;	
 	display: table;
   	width: 100%;
 	margin-top: 0;
@@ -35,8 +34,15 @@
 		position: fixed;
 	}
 
+	.section {
+		// Less top/bottom padding on the header .section, 
+		// but keep the side padding.
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
 	.container {
-		max-width: 100%;
+		// max-width: 100%;
 	}
 	a {
 		border-bottom: none;
@@ -57,6 +63,7 @@
 		display: block;
 		height: auto;
 		margin: 0 auto;
+		text-align: center;
 		// padding-top: 5px;
 
 

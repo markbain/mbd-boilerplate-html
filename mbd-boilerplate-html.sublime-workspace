@@ -131,7 +131,7 @@
 			"file": "sass/styles.scss",
 			"settings":
 			{
-				"buffer_size": 1135,
+				"buffer_size": 1181,
 				"line_ending": "Windows"
 			}
 		},
@@ -139,7 +139,7 @@
 			"file": "sass/partials/_general.scss",
 			"settings":
 			{
-				"buffer_size": 4856,
+				"buffer_size": 4820,
 				"line_ending": "Windows"
 			}
 		},
@@ -163,7 +163,23 @@
 			"file": "sass/typography/_fonts.scss",
 			"settings":
 			{
-				"buffer_size": 971,
+				"buffer_size": 1194,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "httpdocs/index.php",
+			"settings":
+			{
+				"buffer_size": 12129,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/partials/_media-object.scss",
+			"settings":
+			{
+				"buffer_size": 1277,
 				"line_ending": "Windows"
 			}
 		},
@@ -171,7 +187,7 @@
 			"file": "sass/typography/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 264,
+				"buffer_size": 555,
 				"line_ending": "Windows"
 			}
 		}
@@ -246,6 +262,7 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes/header.php",
 		"/C/xampp/htdocs/mbd-boilerplate-html/sass/typography/_variables.scss",
 		"/C/xampp/htdocs/mbd-boilerplate-html/sass/_variables.scss",
 		"/C/xampp/htdocs/mbd-boilerplate-html/sass/layouts/_variables.scss",
@@ -284,7 +301,6 @@
 		"/C/xampp/htdocs/mbd-boilerplate-html/rc/assets/css/source/style.css",
 		"/C/xampp/htdocs/mbd-boilerplate-html/rc/includes/header.php",
 		"/C/xampp/htdocs/mbd-boilerplate-html/rc/includes/footer.php",
-		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes/header.php",
 		"/C/xampp/htdocs/mbd-boilerplate-html/rc/assets/js/build/main.min.js",
 		"/C/xampp/htdocs/mbd-boilerplate-html/rc/assets/js/build/plugins.min.js",
 		"/C/xampp/htdocs/mbd-boilerplate-html/.gitignore",
@@ -473,15 +489,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1135,
+						"buffer_size": 1181,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								986,
-								987
+								0,
+								0
 							]
 						],
 						"settings":
@@ -492,7 +508,7 @@
 						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -501,7 +517,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4856,
+						"buffer_size": 4820,
 						"regions":
 						{
 						},
@@ -521,7 +537,7 @@
 						"translation.y": 1306.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -550,7 +566,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -579,13 +595,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -594,20 +610,78 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 971,
+						"buffer_size": 1194,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								486,
-								486
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "httpdocs/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								882,
+								882
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 429.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "sass/partials/_media-object.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -617,20 +691,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "sass/typography/_variables.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 264,
+						"buffer_size": 555,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19,
-								19
+								0,
+								0
 							]
 						],
 						"settings":
@@ -641,7 +715,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -722,7 +796,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\Mark & Aida\\Dropbox\\Projects - Clients\\Oxford TEFL\\oxford-tefl-homepage.sublime-project"
+				"C:\\xampp\\htdocs\\ieltsjam\\ieltsjam.sublime-project"
 			]
 		],
 		"width": 475.0

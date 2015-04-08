@@ -3,11 +3,13 @@ $container-width: 64em; // Set max width of container element in ems.
 $pageWidth: 100%;
 $textblock-width: 100%;
 $block-padding: 1em 10%;
-$section-padding: 2em 15%;
 $side-padding: 0 10%;
 $width_menu-item: 150px; // Dropdown menu needs fixed width for positioning
 $input-padding: 1em 10px;
 $input-border-radius: 5px;
+
+// Section padding
+	$section-padding: 2em 5%;
 
 // Masonry
 // Apply these to the .grid-sizer and .gutter-sizer elements, plus the items themselves.

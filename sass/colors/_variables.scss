@@ -125,15 +125,15 @@ $white_rock: #E9EBD9;
 	// Buttons
 	$color_button:						darken( $manilla, 50% );
 	$color_background-button:			$manilla;
-	$color_button-hover:				$color_button;
-	$color_background-button-hover:		$pale_ivy;
+	$color_button-hover:				darken( $manilla, 50% );
+	$color_background-button-hover:		darken( $manilla, 20% );
 	$color_button-active:				$color_button;
 	$color_background-button-active:	$mockingbird;
 
 	// Main sections
-	$color_section-header: $pale_ivy;
+	$color_section-header: $black;
 	$color_background-section-header: $white;
 	//$color_section-main:;
 	//$color_background-section-main:;
-	$color_section-footer: $pale_ivy;
+	$color_section-footer: $black;
 	$color_background-section-footer: $white;
