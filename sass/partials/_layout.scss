@@ -3,21 +3,19 @@
    ========================================================================== */
 
 html, 
-body,
-#page {
-	height: 100%; /* Important for sticky footer */
+body {
+	min-height: 100%; 
+
 }
 
-body {
-	min-height: 100%;
-}
+
+main {
+		text-align: center;}
+
 
 .section {
 	width: 100%;
-	padding: 1em 3%;
-	@include breakpoint($tablet) {
-		padding: 3em 3%;
-	}
+	padding: $section-padding;
 
 	.container {
 		position: relative; // Allow absolute positioning of elements
@@ -115,28 +113,3 @@ input[type="search"] {
 a#search-toggle {
 	float: left;
 }
-
-/* Right sidebar */
-
-.media_block {
-	@include clearfix;
-	.media_block-text {
-		width: 100%;
-		@include breakpoint($tablet) {
-
-		}
-
-	}
-	.media_block-image {
-		text-align: center;
-		@include breakpoint($tablet) {
-
-		}
-		img {
-			margin-bottom: 1em;
-			max-width: 66px;
-		}
-	}
-}
-
-

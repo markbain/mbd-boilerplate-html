@@ -13,14 +13,14 @@ Setup
 Usage
 ---
 * Run `grunt` to execute default tasks
-* Run `grunt rc` to create build files
 
 Optimisation/Versioning
 ----
-* Run `grunt rc-*` to create a fully-optimised, versioned copy of your project.
-** Run `grunt rc-fix` to create a patch version
-** Run `grunt rc-min` to create a minor version
-** Run `grunt rc-maj` to create a major versionç
+To create a fully-optimised, versioned copy of your project:
+
+* Run `grunt rc-fix` to create a patch version
+* Run `grunt rc-min` to create a minor version
+* Run `grunt rc-maj` to create a major version
 
 Distribution
 ----

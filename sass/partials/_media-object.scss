@@ -1,52 +1,77 @@
-.media-object {
-	@include clearfix;
+.media-object-container {
+	
+	// Set up the grid
+	@include add-grid(24);
 
-	.image-wrapper {
-		padding: 4px;
-		border: 1px solid rgba(0, 0, 0, 0.15);
-		a {
-			display: block; // likely to be wrapped in an anchor tag
+	// Standard stacked layout
+	.media-object {
+		padding: 1rem;
+		margin-bottom: 1rem;
+		background: #fff;
+		header {
+			@extend .h4;
+		}
+		.media-object-media {	
 			img {
-				@include transition(all, 0.3s, ease-in-out);
-				
-				&:hover {
-					box-shadow: 4px 6px 10px rgba(0,0,0,.3);
-					@include transition(all, 0.3s, ease-in-out);
-				}
+				width: 100%;
 			}
 		}
-		
-		img {
-			width: 100%;
+		.media-object-content {
 		}
 	}
 
-	article {
-		float: left;
-		width: 70%;
-		padding-right: 3%;
-	}
+	// Change content layout to side-by-side
+	@include breakpoint( $mobile-horizontal ) {		
+		.media-object {
 
-	h1 {
-		clear: none;
-		margin: 0;
-	}
-}
-
-.content-insert {
-
-	.media_block-image {
-		@include breakpoint( $tablet ) {
-			text-align: left;
-		}
-		img {
-			max-width: 99px;
-			@include center-block;
-			@include breakpoint( $tablet ) {
-				margin: 0;
-				display: inline;
-				
+			// Float media to left
+			@include clearfix;
+			.media-object-media {
+				font-size: ms(0);
+				width: 30%;
+				float: left;
 				padding-right: 10px;
+				.fa-stack {
+					display: block;
+					text-align: left;
+				}
+			}
+			.media-object-content {
+				width: 70%;
+				float: left;
+				text-align: left;
+			}
+		}
+	}
+
+	// Change layout to 3 columns
+	@include breakpoint( $tablet-horizontal ) {
+		@include add-grid(24);
+		.media-object {
+			&:nth-of-type(3n+1) {
+				@include grid-span(8, 1);
+			}
+			&:nth-of-type(3n+2) {
+				@include grid-span(8, 9);
+			}
+			&:nth-of-type(3n+3) {
+				@include grid-span(8, 17);
+			}
+
+			// Restore stacked content layout
+			.media-object-media {
+				width: 100%;
+				float: none;
+				padding-right: 0;
+				.fa-stack {
+					display: inline-block;
+					text-align: center;
+				}
+			}
+			.media-object-content {
+				width: 100%;
+				float: none;
+				text-align: center;
 			}
 		}
 	}

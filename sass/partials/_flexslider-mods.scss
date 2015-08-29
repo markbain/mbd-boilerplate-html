@@ -82,7 +82,7 @@ ol.flex-control-nav {
 }
 
 #testimonials-title {
-	@extend .h2-meta;
+	@extend .h2-meta !optional;
 	span {
 		font-weight: 900;
 	}

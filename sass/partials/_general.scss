@@ -18,8 +18,7 @@
 body {
 	color: $color_text;
 	background: #ddd;
-	text-align: center;
-	font-family: 'Ubuntu', sans-serif;
+	text-align: left;
 	@include breakpoint( $mobile-horizontal ) {
 		// text-align: left;
 	}
@@ -50,7 +49,7 @@ a {
 	}
 	&:hover {
 		color: $color_text-anchor-hover;
-		border-bottom: 2px solid $color_text-anchor-hover;
+		border-bottom: 1px solid $color_text-anchor-hover;
 		@include transition(all, 0.3s, ease-in-out);
 	}
 }
@@ -66,78 +65,6 @@ img {
 }
 
 
-/* ==========================================================================
-   Typography
-   ========================================================================== */
-
-
-.h1, .h2, .h3, .h4, .h5, .h6 {
-	margin: 0.5em 0;
-	clear: both;
-	// font-family: 'Alfa Slab One', sans-serif;
-
-	a {
-		border-bottom: none;
-	}
-}
-
-h1 {
-	@extend .h1 !optional;
-	&.page-title {
-		@extend .meta-label;
-	}
-}
-
-h2 {
-	@extend .h2 !optional;
-}
-h3 {
-	@extend .h3 !optional;
-}
-h4 {
-	@extend .h4 !optional;
-}
-h5 {
-	@extend .h4 !optional;
-}
-h6 {
-	@extend .h4 !optional;
-}
-
-.h1 {	
-	font-size: 3.998em;
-	margin-top: 0;
-
-	line-height: .85; 
-	text-transform: none;
-}
-
-.h2 { 
-	font-size: 2.827em;
-
-	font-weight: 900; 
-}
-
-.h2-meta { 
-	@extend .meta;
-
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-weight: 300;
-}
-
-
-.h3 { 
-	font-size: 1.999em;
-}
-
-.h4 { 
-	font-size: 1.414em;
-}
-
-small, .font_small {
-	font-size: 0.707em;
-}
 
 p {
 	margin: 0 0 1em 0; // Browser will set "margin-before", so be explicit!
