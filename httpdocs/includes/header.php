@@ -63,22 +63,21 @@
 		<div class="container">
 			<div class="site-branding">
 				<div class="site-title">
-					<a href="/" rel="home" class="h5"><strong>Site</strong><span>title</span></a>									
+					<a href="/" rel="home" class="h5">
+						<img src="./assets/images/example-logo.png">
+					</a>									
 				</div>
-				<div class="site-description font_small">
-					<p>Site description</p>									
-				</div>
-				<!-- <a id="nav-toggle" class="toggle">
+				<a id="nav-toggle" class="toggle">
 					<span class="visuallyhidden">Menu</span>
-				</a> -->
+				</a>
 			</div>				
 			<div id="main-nav-wrapper">
 				<nav class="nav-collapse main-navigation">
 					<ul class="nav-collapse main-navigation">
-					<li><a href="#" class="button">Item 1</a></li>
-					<li><a href="#" class="button">Item 2</a></li>
-					<li><a href="#" class="button">Item 3</a></li>
-					<li><a href="#" class="cta button cta-primary">Item 4</a></li>
+					<li><a href="#" >Item 1</a></li>
+					<li><a href="#" >Item 2</a></li>
+					<li><a href="#" >Item 3</a></li>
+					<li><a href="#" class="cta cta-primary">Item 4</a></li>
 					</ul>	
 				</nav>
 			</div>

@@ -128,74 +128,39 @@
 	"buffers":
 	[
 		{
-			"file": "sass/styles.scss",
+			"file": "httpdocs/includes/header.php",
 			"settings":
 			{
-				"buffer_size": 1181,
+				"buffer_size": 3388,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "sass/partials/_general.scss",
+			"file": "sass/partials/_header.scss",
 			"settings":
 			{
-				"buffer_size": 4820,
+				"buffer_size": 2616,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "sass/partials/_flexslider-mods.scss",
+			"file": "sass/partials/_grid.scss",
 			"settings":
 			{
-				"buffer_size": 1228,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/partials/_page-post.scss",
-			"settings":
-			{
-				"buffer_size": 2687,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/typography/_fonts.scss",
-			"settings":
-			{
-				"buffer_size": 1194,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "httpdocs/index.php",
-			"settings":
-			{
-				"buffer_size": 12129,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/partials/_media-object.scss",
-			"settings":
-			{
-				"buffer_size": 1277,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/typography/_variables.scss",
-			"settings":
-			{
-				"buffer_size": 555,
+				"buffer_size": 693,
 				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -254,63 +219,30 @@
 		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs",
 		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes",
 		"/C/xampp/htdocs/mbd-boilerplate-html/sass",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/colors",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/layouts",
 		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/typography",
 		"/C/xampp/htdocs/mbd-boilerplate-html"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes/header.php",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/typography/_variables.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/_variables.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/layouts/_variables.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/assets/css/source/style.css",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_mixins.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/colors/_variables.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_forms.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_helpers.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_layout.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/index.php",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_signup.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_headroom.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_variables.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_general.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/_bower.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/typography/_fonts.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/typography/_mixins.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_animate.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_3d-button.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_color-me-sass.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_widgets.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/bower_components/fontawesome/scss/_variables.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/_mixins.scss",
-		"/C/xampp/htdocs/dn-digital/bower_components/fontawesome/scss/_path.scss",
 		"/C/xampp/htdocs/mbd-boilerplate-html/Gruntfile.js",
-		"/C/xampp/htdocs/dn-digital/sass/partials/_variables.scss",
-		"/C/xampp/htdocs/dn-digital/bower_components/fontawesome/scss/_variables.scss",
-		"/C/xampp/htdocs/dn-digital/bower_components/fontawesome/css/font-awesome.css",
-		"/C/xampp/htdocs/mbd-boilerplate-html/README.md",
-		"/C/xampp/htdocs/mbd-boilerplate-html/bower_components/fontawesome/scss/font-awesome.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/dist/mbd-boilerplate-html.0.5.0/mbd-boilerplate-html/assets/css/build/style.min.css",
-		"/C/xampp/htdocs/mbd-boilerplate-html/dist/mbd-boilerplate-html.1.1.1/mbd-boilerplate-html/assets/css/build/style.min.css",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/styles.scss",
-		"/C/xampp/htdocs/mbd-boilerplate-html/rc/assets/css/build/style.min.css",
-		"/C/xampp/htdocs/mbd-boilerplate-html/package.json",
-		"/C/xampp/htdocs/mbd-boilerplate-html/rc/assets/css/source/style.css",
+		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes/footer.php",
+		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_layout.scss",
 		"/C/xampp/htdocs/mbd-boilerplate-html/rc/includes/header.php",
-		"/C/xampp/htdocs/mbd-boilerplate-html/rc/includes/footer.php",
+		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes/header.php",
+		"/C/xampp/htdocs/mbd-boilerplate-html/rc/assets/css/build/style.min.css",
 		"/C/xampp/htdocs/mbd-boilerplate-html/rc/assets/js/build/main.min.js",
 		"/C/xampp/htdocs/mbd-boilerplate-html/rc/assets/js/build/plugins.min.js",
+		"/C/xampp/htdocs/mbd-boilerplate-html/package.json",
+		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/index.php",
 		"/C/xampp/htdocs/mbd-boilerplate-html/.gitignore",
 		"/C/xampp/htdocs/mbd-boilerplate-html/mbd-boilerplate-html.sublime-project",
 		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes/footer.php",
 		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/assets/js/custom/custom.js",
+		"/C/xampp/htdocs/mbd-boilerplate-html/sass/styles.scss",
 		"/C/xampp/htdocs/mbd-boilerplate-html/mbd-boilerplate-html",
 		"/C/xampp/htdocs/ieltsjam/package.json",
 		"/C/xampp/htdocs/ieltsjam/httpdocs/index.html",
+		"/C/xampp/htdocs/mbd-boilerplate-html/README.md",
 		"/C/xampp/htdocs/ieltsjam/bower.json",
 		"/C/xampp/htdocs/oxfordtefl/.gitignore",
 		"/C/xampp/htdocs/oxfordtefl/httpdocs/wp-config.php",
@@ -389,18 +321,47 @@
 		"/C/xampp/htdocs/saferstdtesting/httpdocs/lookforbadguys.php",
 		"/C/Users/Mark & Aida/Desktop/Avada/header.php",
 		"/F/dev/.htpasswd",
-		"/C/xampp/htdocs/saferstdtesting/sass/colors/_colors.scss"
+		"/C/xampp/htdocs/saferstdtesting/sass/colors/_colors.scss",
+		"/C/xampp/htdocs/saferstdtesting/sass/colors/safer_1/safer_1.scss",
+		"/C/xampp/htdocs/saferstdtesting/README.md",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/Avada/functions.php",
+		"/C/Users/Mark & Aida/Dropbox/Projects - Clients/Creative Innovations/saferSTDtesting/Avada-Child-Theme/Avada-Child-Theme/functions.php",
+		"/C/Users/Mark & Aida/Dropbox/Projects - Clients/Creative Innovations/saferSTDtesting/Avada-Child-Theme/Avada-Child-Theme/style.css",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/care/style.css",
+		"/C/xampp/htdocs/saferstdtesting/httpdocs/wp-content/themes/Avada/style.css",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/mbd-simple-vote/ludou_simplevote.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/ludou-simple-vote/readme.txt",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/mbd-linkwithin/mbd-linkwithin.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/linkwithin/linkwithin.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/footer.php",
+		"/C/Users/Mark & Aida/Dropbox/Projects - Clients/Breakfast with Audrey/myuploads-failedunzip",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/content-loop.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/fashion.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/category-fashion.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/category-beauty.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/category.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/marketpress/marketpress-includes/marketpress-data.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/marketpress/marketpress.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/marketpress/marketpress-includes/constants.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/plugins/marketpress/marketpress-includes/marketpress-shortcodes.php",
+		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/fashiongallery.php",
+		"/C/xampp/htdocs/mhairi-mcfarlane/httpdocs/wp-content/themes/varee/content-archive.php",
+		"/C/xampp/htdocs/mhairi-mcfarlane/httpdocs/wp-content/themes/varee/archive.php",
+		"/C/Users/Mark & Aida/Dropbox/Projects - Clients/DN Digital/DN Digital (Shared)/images/dndigital-logo-black.svg",
+		"/C/Users/Mark & Aida/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Mark & Aida/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/dn-digital/sass/partials/_post-list.scss",
+		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/front-page.php"
 	],
 	"find":
 	{
-		"height": 47.0
+		"height": 52.0
 	},
 	"find_in_files":
 	{
 		"height": 136.0,
 		"where_history":
 		[
-			"",
 			"C:\\xampp\\htdocs\\oxfordtefl\\httpdocs\\wp-content\\themes\\oxfordtefl",
 			"C:\\xampp\\htdocs\\saferstdtesting\\httpdocs\\wp-content\\plugins\\directory",
 			""
@@ -411,9 +372,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"h2-meta",
-			"media",
-			"$fa-font-path",
+			"head",
 			"bcn_display();",
 			"hooks",
 			"home",
@@ -457,7 +416,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"h2-meta !optional",
 			"dir",
 			"[contentblock id=DIR-",
 			"mbdmaster",
@@ -485,168 +443,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "sass/styles.scss",
+					"file": "httpdocs/includes/header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1181,
+						"buffer_size": 3388,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sass/partials/_general.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4820,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1673,
-								1673
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1306.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sass/partials/_flexslider-mods.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1228,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								66,
-								66
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "sass/partials/_page-post.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2687,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"file": "sass/typography/_fonts.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1194,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "httpdocs/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12129,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								882,
-								882
+								3047,
+								3047
 							]
 						],
 						"settings":
@@ -654,28 +463,57 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 429.0,
+						"translation.x": 0.0,
+						"translation.y": 1723.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "sass/partials/_media-object.scss",
-					"semi_transient": true,
+					"buffer": 1,
+					"file": "sass/partials/_header.scss",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1277,
+						"buffer_size": 2616,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1531,
+								1531
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2100.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/partials/_grid.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 693,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								288
 							]
 						],
 						"settings":
@@ -688,34 +526,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "sass/typography/_variables.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 555,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -738,18 +548,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -767,6 +570,7 @@
 	{
 		"height": 152.0
 	},
+	"pinned_build_system": "",
 	"project": "mbd-boilerplate-html.sublime-project",
 	"replace":
 	{
@@ -776,6 +580,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -792,11 +597,12 @@
 	"select_project":
 	{
 		"height": 625.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
 				"",
-				"C:\\xampp\\htdocs\\ieltsjam\\ieltsjam.sublime-project"
+				"C:\\xampp\\htdocs\\raul-gallegos\\gallegos.sublime-project"
 			]
 		],
 		"width": 475.0
@@ -804,12 +610,13 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
