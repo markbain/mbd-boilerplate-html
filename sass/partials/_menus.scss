@@ -97,7 +97,7 @@
 		}
 
 		a {
-			@extend .button;
+			// @extend .button;
 			@include breakpoint( $tablet ){
 
 			} 

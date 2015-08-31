@@ -7,6 +7,9 @@
 	include_once('./includes/header.php');
 ?>
 
+<?php include_once('./includes/cover.php'); ?>
+<?php include_once('./includes/boxes.php'); ?>
+
 <div class="section alt">
 	<div class="container">
 		<h1>CSS Basic Elements</h1> 

@@ -1,6 +1,5 @@
-/* ==========================================================================
-   Header
-   ==========================================================================de */
+// Header
+
 #pre-header {
 	display: none;
 	position: fixed;
@@ -13,16 +12,11 @@
 	}
 }
 
-.site-header {
-	background-color: $color_background-section-header;
-	color: $color_section-header;	
-	display: table;
+.site-header {	
   	width: 100%;
 	margin-top: 0;
 
-	border-bottom: $color_grey;
 	@include breakpoint( $tablet ){
-		width: 100%;
 
 	}
 
@@ -42,6 +36,7 @@
 	}
 
 	.container {
+
 		// max-width: 100%;
 	}
 	a {
@@ -68,7 +63,7 @@
 
 
 		img, #logo {
-			width: 100%;
+			max-width: 100%;
 			&.desktop-logo {
 				display: none;
 				@include breakpoint( $tablet ){
@@ -83,28 +78,32 @@
 		}
 	}
 	@include breakpoint( $tablet ){
-		display: table-cell;
-		vertical-align: middle;
+		position: absolute; 
+		left: 0;
+		top: 0;
 		padding: 0;
 		width: auto;
 		.site-title {
 			float: none;
 			img {
-				width: 100%;
+				max-width: 100%;
 			}
 		}
 	} 
 
-	@include breakpoint( $tablet-horizontal ){
-		
-	} 
 }
 
 #main-nav-wrapper {
 	@include breakpoint( $tablet ) {
-		display: table-cell;
-		vertical-align: middle;
+	
 		width: 100%;
+	}
+}
+
+.main-navigation {
+	ul {
+		padding: 0;
+
 	}
 }
 
