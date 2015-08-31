@@ -136,10 +136,10 @@
 			}
 		},
 		{
-			"file": "sass/partials/_header.scss",
+			"file": "httpdocs/includes/footer.php",
 			"settings":
 			{
-				"buffer_size": 2470,
+				"buffer_size": 2755,
 				"line_ending": "Windows"
 			}
 		},
@@ -148,7 +148,7 @@
 			"settings":
 			{
 				"buffer_size": 775,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -156,22 +156,6 @@
 			"settings":
 			{
 				"buffer_size": 1123,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/partials/_helpers.scss",
-			"settings":
-			{
-				"buffer_size": 1576,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/partials/_cover.scss",
-			"settings":
-			{
-				"buffer_size": 1586,
 				"line_ending": "Windows"
 			}
 		},
@@ -184,18 +168,7 @@
 			}
 		},
 		{
-			"file": "sass/partials/_menus.scss",
-			"settings":
-			{
-				"buffer_size": 4885,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<div id=\"cover\" class=\"section\">\n	<div class=\"container\">\n		cover\n	</div><!-- .container -->\n</div><!-- .section -->",
 			"file": "httpdocs/includes/cover.php",
-			"file_size": 120,
-			"file_write_time": 130855040906738568,
 			"settings":
 			{
 				"buffer_size": 116,
@@ -206,7 +179,15 @@
 			"file": "httpdocs/index.php",
 			"settings":
 			{
-				"buffer_size": 12377,
+				"buffer_size": 12425,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "httpdocs/includes/boxes.php",
+			"settings":
+			{
+				"buffer_size": 1816,
 				"line_ending": "Windows"
 			}
 		},
@@ -284,13 +265,16 @@
 	"expanded_folders":
 	[
 		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs",
-		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass",
-		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials",
-		"/C/xampp/htdocs/mbd-boilerplate-html"
+		"/C/xampp/htdocs/mbd-boilerplate-html",
+		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/assets/js/custom"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_menus.scss",
+		"/C/xampp/htdocs/caffe-concerto/httpdocs/index.php",
+		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_cover.scss",
+		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/assets/js/custom/custom.js",
+		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_header.scss",
 		"/C/xampp/htdocs/mbd-boilerplate-html/Gruntfile.js",
 		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/includes/footer.php",
 		"/C/xampp/htdocs/mbd-boilerplate-html/sass/partials/_layout.scss",
@@ -304,7 +288,6 @@
 		"/C/xampp/htdocs/mbd-boilerplate-html/.gitignore",
 		"/C/xampp/htdocs/mbd-boilerplate-html/mbd-boilerplate-html.sublime-project",
 		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/xampp/htdocs/mbd-boilerplate-html/httpdocs/assets/js/custom/custom.js",
 		"/C/xampp/htdocs/mbd-boilerplate-html/sass/styles.scss",
 		"/C/xampp/htdocs/mbd-boilerplate-html/mbd-boilerplate-html",
 		"/C/xampp/htdocs/ieltsjam/package.json",
@@ -414,11 +397,7 @@
 		"/C/xampp/htdocs/breakfastwithaudrey/wp-content/themes/bwa_2013/fashiongallery.php",
 		"/C/xampp/htdocs/mhairi-mcfarlane/httpdocs/wp-content/themes/varee/content-archive.php",
 		"/C/xampp/htdocs/mhairi-mcfarlane/httpdocs/wp-content/themes/varee/archive.php",
-		"/C/Users/Mark & Aida/Dropbox/Projects - Clients/DN Digital/DN Digital (Shared)/images/dndigital-logo-black.svg",
-		"/C/Users/Mark & Aida/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Mark & Aida/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/xampp/htdocs/dn-digital/sass/partials/_post-list.scss",
-		"/C/xampp/htdocs/dn-digital/httpdocs/wp-content/themes/dn-digital/front-page.php"
+		"/C/Users/Mark & Aida/Dropbox/Projects - Clients/DN Digital/DN Digital (Shared)/images/dndigital-logo-black.svg"
 	],
 	"find":
 	{
@@ -505,7 +484,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -521,8 +500,8 @@
 						"selection":
 						[
 							[
-								2966,
-								2980
+								2860,
+								2868
 							]
 						],
 						"settings":
@@ -531,39 +510,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1617.0,
+						"translation.y": 1449.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "sass/partials/_header.scss",
+					"file": "httpdocs/includes/footer.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2470,
+						"buffer_size": 2755,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1302,
-								1302
+								2185,
+								2185
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1717.0,
+						"translation.y": 1101.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -593,7 +572,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -609,8 +588,8 @@
 						"selection":
 						[
 							[
-								790,
-								790
+								610,
+								610
 							]
 						],
 						"settings":
@@ -618,73 +597,14 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 504.0,
+						"translation.y": 756.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "sass/partials/_helpers.scss",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1576,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "sass/partials/_cover.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1586,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								98,
-								98
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "/C/xampp/htdocs/raul-gallegos/httpdocs/wp-content/themes/gallegos/content-cover.php",
 					"semi_transient": false,
 					"settings":
@@ -705,44 +625,15 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 1176.0,
+						"translation.x": 0.0,
+						"translation.y": 945.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "sass/partials/_menus.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4885,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1454,
-								1454
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 4094.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
+					"buffer": 5,
 					"file": "httpdocs/includes/cover.php",
 					"semi_transient": false,
 					"settings":
@@ -754,8 +645,8 @@
 						"selection":
 						[
 							[
-								30,
-								30
+								65,
+								65
 							]
 						],
 						"settings":
@@ -766,24 +657,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 6,
 					"file": "httpdocs/index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12377,
+						"buffer_size": 12425,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1089,
-								1090
+								398,
+								398
 							]
 						],
 						"settings":
@@ -795,11 +686,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 7,
+					"file": "httpdocs/includes/boxes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								655,
+								655
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 209.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "Gruntfile.js",
 					"semi_transient": false,
 					"settings":
@@ -823,7 +743,7 @@
 						"translation.y": 7519.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
